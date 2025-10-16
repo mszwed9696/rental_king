@@ -10,15 +10,17 @@ module.exports = async (req, res) => {
     return res.status(405).send('Method Not Allowed');
   }
 
+  const cb = sanitizeCallback((req.query && req.query.cb) || (req.headers && req.headers['x-callback']) || 'onData');
   try {
-    const cb = sanitizeCallback((req.query && req.query.cb) || (req.headers && req.headers['x-callback']) || 'onData');
     const data = await getData();
     res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
     res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400');
     return res.status(200).send(`${cb}(${JSON.stringify(data)});`);
   } catch (err) {
+    // Always return a valid JSONP callback, even on errors
     res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
-    return res.status(500).send(`onError(${JSON.stringify({ ok:false, error: String(err && err.message || err) })});`);
+    res.setHeader('Cache-Control', 'no-store');
+    const payload = { ok: false, error: String((err && err.message) || err) };
+    return res.status(200).send(`${cb}(${JSON.stringify(payload)});`);
   }
 };
-

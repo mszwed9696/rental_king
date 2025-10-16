@@ -7,7 +7,8 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const data = await getData();
+    const fresh = !!(req.query && (req.query.fresh === '1' || req.query.fresh === 'true'));
+    const data = await getData({ fresh });
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
     res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400');
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -16,4 +17,3 @@ module.exports = async (req, res) => {
     return res.status(500).send(JSON.stringify({ ok: false, error: String(err && err.message || err) }));
   }
 };
-

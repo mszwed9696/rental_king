@@ -12,7 +12,8 @@ module.exports = async (req, res) => {
 
   const cb = sanitizeCallback((req.query && req.query.cb) || (req.headers && req.headers['x-callback']) || 'onData');
   try {
-    const data = await getData();
+    const fresh = !!(req.query && (req.query.fresh === '1' || req.query.fresh === 'true'));
+    const data = await getData({ fresh });
     res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
     res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=86400');
     return res.status(200).send(`${cb}(${JSON.stringify(data)});`);

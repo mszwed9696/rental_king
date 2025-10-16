@@ -2,7 +2,7 @@
   "rewrites": [
     { "source": "/listings.json", "destination": "/api/listings.json" },
     { "source": "/listings.jsonp", "destination": "/api/listings.jsonp" },
-    { "source": "/sanity", "destination": "/api/sanity" }
+    { "source": "/sanity", "destination": "/api/sanity" },
+    { "source": "/health", "destination": "/api/health" }
   ]
 }
-

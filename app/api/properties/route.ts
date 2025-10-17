@@ -11,10 +11,11 @@ export async function GET() {
 
     // Transform properties to match the expected format
     const properties = data.properties.map((prop: any) => {
-      // Convert Google Drive folder ID to photo URL
+      // Convert Google Drive file ID to photo URL
+      // Using lh3.googleusercontent.com format for reliable image embedding
       let photoUrl = '/logo.svg';
       if (prop.photo_folder_id) {
-        photoUrl = `https://drive.google.com/uc?export=view&id=${prop.photo_folder_id}`;
+        photoUrl = `https://lh3.googleusercontent.com/d/${prop.photo_folder_id}`;
       }
 
       return {

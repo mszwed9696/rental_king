@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -21,8 +21,8 @@ const createCustomIcon = (color: string) => {
   });
 };
 
-const availableIcon = createCustomIcon('#d3d3d3');
-const rentedIcon = createCustomIcon('#666');
+const availableIcon = createCustomIcon('#00ff00');
+const rentedIcon = createCustomIcon('#0033CC');
 
 interface MapProps {
   properties: Property[];
@@ -32,6 +32,7 @@ interface MapProps {
 
 export default function Map({ properties, selectedProperty, onPropertyClick }: MapProps) {
   const [isMounted, setIsMounted] = useState(false);
+  const markerRefs = useRef<{ [key: string]: L.Marker }>({});
 
   useEffect(() => {
     setIsMounted(true);
@@ -64,11 +65,22 @@ export default function Map({ properties, selectedProperty, onPropertyClick }: M
             key={property.id}
             position={[property.lat, property.lng]}
             icon={property.status === 'available' ? availableIcon : rentedIcon}
+            ref={(ref) => {
+              if (ref) {
+                markerRefs.current[property.id] = ref;
+              }
+            }}
             eventHandlers={{
               click: () => {
                 if (onPropertyClick) {
                   onPropertyClick(property.id);
                 }
+              },
+              mouseover: (e) => {
+                e.target.openPopup();
+              },
+              mouseout: (e) => {
+                e.target.closePopup();
               }
             }}
           >

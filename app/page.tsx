@@ -200,7 +200,7 @@ export default function Home() {
         <h2 style={{
           fontSize: 'clamp(18px, 4vw, 24px)',
           fontWeight: '600',
-          color: '#666',
+          color: '#00ff00',
           marginBottom: '0',
         }}>
           Rowan University Student Rentals

@@ -181,13 +181,13 @@ export default function Home() {
         textAlign: 'center',
       }}>
         <h1 style={{
-          fontSize: 'clamp(24px, 5vw, 36px)',
+          fontSize: 'clamp(26px, 5vw, 38px)',
           fontWeight: 'bold',
           color: '#0033CC',
           marginBottom: '8px',
           lineHeight: '1.2',
         }}>
-          location, location, location... and parking!
+          Location, Location, Location... and Parking!
         </h1>
         <h2 style={{
           fontSize: 'clamp(18px, 4vw, 24px)',

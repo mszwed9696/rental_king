@@ -71,8 +71,8 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             left: '-40px',
             transform: 'rotate(-45deg)',
             width: '200px',
-            background: property.address === '38 CARPENTER ST' ? '#FFB6C1' :
-                       property.address === '42 CARPENTER ST' ? '#00ff00' : '#FF69B4',
+            background: property.address === '38 CARPENTER ST' ? '#FFC0CB' :
+                       property.address === '42 CARPENTER ST' ? '#32CD32' : '#FF1493',
             color: 'white',
             padding: '8px 0',
             textAlign: 'center',
@@ -85,14 +85,14 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           </div>
         )}
 
-        {/* Status Badge - prioritize New Construction, then Rented, then Available */}
+        {/* Status Badge - prioritize New Construction, Commercial, Townhome, then Rented, then Available */}
         {property.type && property.type.includes('New Construction') ? (
           <div style={{
             position: 'absolute',
             top: '10px',
             right: '10px',
-            background: '#0033CC',
-            color: '#00ff00',
+            background: '#d3d3d3',
+            color: '#333',
             padding: '4px 12px',
             borderRadius: '4px',
             fontSize: '12px',
@@ -100,6 +100,36 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             zIndex: 10
           }}>
             NEW CONSTRUCTION
+          </div>
+        ) : property.type && (property.type.includes('Commercial') || property.city === 'Commercial') ? (
+          <div style={{
+            position: 'absolute',
+            top: '10px',
+            right: '10px',
+            background: '#d3d3d3',
+            color: '#333',
+            padding: '4px 12px',
+            borderRadius: '4px',
+            fontSize: '12px',
+            fontWeight: 'bold',
+            zIndex: 10
+          }}>
+            COMMERCIAL
+          </div>
+        ) : property.type && (property.type.includes('Townhome') || property.type.includes('Townhouse')) ? (
+          <div style={{
+            position: 'absolute',
+            top: '10px',
+            right: '10px',
+            background: '#d3d3d3',
+            color: '#333',
+            padding: '4px 12px',
+            borderRadius: '4px',
+            fontSize: '12px',
+            fontWeight: 'bold',
+            zIndex: 10
+          }}>
+            TOWNHOME
           </div>
         ) : property.status === 'rented' ? (
           <div style={{

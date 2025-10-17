@@ -203,7 +203,7 @@ export default function Home() {
           color: '#666',
           marginBottom: '0',
         }}>
-          Student Rentals @ Rowan University
+          Rowan University Student Rentals
         </h2>
       </div>
 

@@ -10,17 +10,19 @@ import { Property } from '../lib/properties';
 const createCustomIcon = (color: string) => {
   return L.divIcon({
     className: 'custom-marker',
-    html: `<div style="background-color: ${color}; width: 25px; height: 40px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); position: relative;">
-      <div style="position: absolute; width: 14px; height: 14px; border-radius: 50%; background: white; top: 5px; left: 5px;"></div>
+    html: `<div style="display: flex; align-items: center; justify-content: center;">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="${color}" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z" stroke="#fff" stroke-width="1"/>
+      </svg>
     </div>`,
-    iconSize: [25, 40],
-    iconAnchor: [12, 40],
-    popupAnchor: [0, -40],
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32],
   });
 };
 
-const availableIcon = createCustomIcon('#00ff00');
-const rentedIcon = createCustomIcon('#0033ff');
+const availableIcon = createCustomIcon('#d3d3d3');
+const rentedIcon = createCustomIcon('#666');
 
 interface MapProps {
   properties: Property[];
@@ -77,7 +79,7 @@ export default function Map({ properties, selectedProperty, onPropertyClick }: M
                 </h3>
                 <p style={{ margin: '4px 0', fontSize: '14px' }}>{property.address}</p>
                 {property.rent > 0 && (
-                  <p style={{ margin: '4px 0', fontSize: '14px', fontWeight: 'bold', color: '#00ff00' }}>
+                  <p style={{ margin: '4px 0', fontSize: '14px', fontWeight: 'bold', color: '#0033CC' }}>
                     ${property.rent.toLocaleString()}/mo
                   </p>
                 )}
@@ -88,7 +90,7 @@ export default function Map({ properties, selectedProperty, onPropertyClick }: M
                   margin: '8px 0 0 0',
                   fontSize: '12px',
                   fontWeight: 'bold',
-                  color: property.status === 'available' ? '#00ff00' : '#666'
+                  color: property.status === 'available' ? '#0033CC' : '#666'
                 }}>
                   {property.status.toUpperCase()}
                 </p>

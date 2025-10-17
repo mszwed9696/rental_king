@@ -63,8 +63,8 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           />
         )}
 
-        {/* Sorority Row Diagonal Sash for $9,900/mo properties */}
-        {property.rent === 9900 && property.type && property.type.includes('Sorority Row') && (
+        {/* Sorority Row Diagonal Sash for properties with Sorority Row type */}
+        {property.type && property.type.includes('Sorority Row') && (
           <div style={{
             position: 'absolute',
             top: '30px',
@@ -161,7 +161,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             <div style={{
               fontSize: '24px',
               fontWeight: 'bold',
-              color: '#0033CC',
+              color: '#006400',
               marginBottom: '8px'
             }}>
               ${property.rent.toLocaleString()}/mo

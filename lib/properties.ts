@@ -73,7 +73,7 @@ export const properties: Property[] = [
     title: '38 CARPENTER ST',
     address: '38 CARPENTER ST',
     city: 'Glassboro, NJ',
-    type: 'New Construction Sorority Row',
+    type: 'Sorority Row',
     beds: 12,
     baths: 6,
     rent: 9900,
@@ -81,15 +81,15 @@ export const properties: Property[] = [
     photo_folder_id: '10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5',
     lat: 39.7035,
     lng: -75.1125,
-  parking: 8,
-  leaseStart: '6/1/26'
+    parking: 12,
+    leaseStart: '6/1/27'
   },
   {
     id: 'P032',
     title: '42 CARPENTER ST',
     address: '42 CARPENTER ST',
     city: 'Glassboro, NJ',
-    type: 'New Construction Sorority Row',
+    type: 'Sorority Row',
     beds: 12,
     baths: 6,
     rent: 9900,
@@ -97,15 +97,15 @@ export const properties: Property[] = [
     photo_folder_id: '1o-CAFAyClQ-HeLlxf2oCDNp5LbAvJhW1',
     lat: 39.7036,
     lng: -75.1126,
-  parking: 12,
-  leaseStart: '6/1/27'
+    parking: 12,
+    leaseStart: '6/1/27'
   },
   {
     id: 'P033',
     title: '46 CARPENTER ST',
     address: '46 CARPENTER ST',
     city: 'Glassboro, NJ',
-    type: 'New Construction Sorority Row',
+    type: 'Sorority Row',
     beds: 12,
     baths: 6,
     rent: 9900,
@@ -113,8 +113,8 @@ export const properties: Property[] = [
     photo_folder_id: '17yxF5axiegs8g5KARWo1mAIUW_JBqhqo',
     lat: 39.7037,
     lng: -75.1127,
-  parking: 12,
-  leaseStart: '6/1/27'
+    parking: 12,
+    leaseStart: '6/1/27'
   },
   {
     id: 'P024',

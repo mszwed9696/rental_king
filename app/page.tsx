@@ -17,6 +17,7 @@ export default function Home() {
   const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
   const [filter, setFilter] = useState<'all' | 'available' | 'rented'>('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [mapActive, setMapActive] = useState(false);
 
   // Fetch properties from API
   useEffect(() => {
@@ -33,6 +34,23 @@ export default function Home() {
     }
     fetchProperties();
   }, []);
+
+  // Deactivate map when scrolling outside of it
+  useEffect(() => {
+    const handleScroll = () => {
+      const mapSection = document.getElementById('map-section');
+      if (mapSection && mapActive) {
+        const rect = mapSection.getBoundingClientRect();
+        // If map is scrolled out of view, deactivate it
+        if (rect.bottom < 0 || rect.top > window.innerHeight) {
+          setMapActive(false);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [mapActive]);
 
   const filteredProperties = properties.filter((property) => {
     const matchesFilter = filter === 'all' || property.status === filter;
@@ -72,7 +90,7 @@ export default function Home() {
         <div style={{
           position: 'relative',
           width: '100%',
-          height: '200px',
+          height: 'clamp(150px, 25vh, 200px)',
         }}>
           <img
             src="/banner.avif"
@@ -81,6 +99,7 @@ export default function Home() {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
+              objectPosition: 'center',
               opacity: 1,
             }}
           />
@@ -94,7 +113,7 @@ export default function Home() {
         boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
         position: 'sticky',
         top: 0,
-        zIndex: 100,
+        zIndex: 1000,
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -146,13 +165,18 @@ export default function Home() {
         padding: '30px 20px',
       }}>
         {/* Map Section */}
-        <div style={{
-          background: 'white',
-          borderRadius: '8px',
-          padding: '20px',
-          marginBottom: '30px',
-          boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-        }}>
+        <div
+          id="map-section"
+          style={{
+            background: 'white',
+            borderRadius: '8px',
+            padding: '20px',
+            marginBottom: '30px',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            position: 'relative',
+            zIndex: 1,
+          }}
+        >
           <h2 style={{
             fontSize: 'clamp(20px, 5vw, 24px)',
             fontWeight: 'bold',
@@ -161,12 +185,57 @@ export default function Home() {
           }}>
             Property Locations
           </h2>
-          <div style={{ height: 'min(600px, 70vh)' }}>
-            <Map
-              properties={filteredProperties}
-              selectedProperty={selectedProperty}
-              onPropertyClick={handlePropertyClick}
-            />
+          <div
+            style={{
+              height: 'min(600px, 70vh)',
+              position: 'relative',
+              overflow: 'hidden',
+            }}
+            onClick={() => setMapActive(true)}
+            onTouchStart={() => setMapActive(true)}
+          >
+            {/* Tap to Use Overlay for Mobile */}
+            {!mapActive && (
+              <div
+                style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  background: 'rgba(0, 51, 204, 0.1)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  zIndex: 10,
+                  cursor: 'pointer',
+                  backdropFilter: 'blur(1px)',
+                }}
+              >
+                <div style={{
+                  background: 'white',
+                  padding: '16px 32px',
+                  borderRadius: '8px',
+                  boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  color: '#0033CC',
+                  textAlign: 'center',
+                }}>
+                  Tap to use map
+                </div>
+              </div>
+            )}
+            <div style={{
+              pointerEvents: mapActive ? 'auto' : 'none',
+              height: '100%',
+            }}>
+              <Map
+                properties={filteredProperties}
+                selectedProperty={selectedProperty}
+                onPropertyClick={handlePropertyClick}
+              />
+            </div>
           </div>
         </div>
 

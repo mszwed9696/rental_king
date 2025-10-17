@@ -29,7 +29,7 @@
       "map_link": "https://www.google.com/maps/search/?api=1&query=1%20SILVER%20AVE",
       "parking": 17,
       "data_source": "Coordinates from Google Sheet",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P028",
@@ -49,7 +49,7 @@
       "map_link": "https://www.google.com/maps/place/127+State+St,+Glassboro,+NJ+08028/@39.7060528,-75.1106992",
       "parking": 10,
       "data_source": "Coordinates from Google Maps search",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P025",
@@ -69,7 +69,7 @@
       "map_link": "https://www.google.com/maps/place/101+New+St+E,+Glassboro,+NJ+08028/@39.7053346,-75.1094006",
       "parking": 8,
       "data_source": "Coordinates from Google Maps search",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P031",
@@ -90,7 +90,7 @@
       "lng": -75.1123326,
       "parking": 12,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/27"
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P032",
@@ -111,7 +111,7 @@
       "lng": -75.1125009,
       "parking": 14,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/27"
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P033",
@@ -132,7 +132,7 @@
       "lng": -75.112676,
       "parking": 16,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/27"
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P024",
@@ -151,7 +151,7 @@
       "lng": -75.1124537,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P020",
@@ -170,7 +170,7 @@
       "lng": -75.1121701,
       "parking": 7,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "7/1/26"
+      "leaseStart": "7-1-26"
     },
     {
       "id": "P023",
@@ -189,14 +189,14 @@
       "lng": -75.1104891,
       "parking": 8,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "7/1/26"
+      "leaseStart": "7-1-26"
     },
     {
       "id": "P034",
       "title": "MIDWAY RD",
       "address": "MIDWAY RD",
       "city": "Glassboro, NJ",
-      "type": "New Construction Reserve Now",
+      "type": "New Construction",
       "property_type": "Reserve Now",
       "beds": 7,
       "baths": 3,
@@ -210,7 +210,7 @@
       "lng": -75.1137828,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/27"
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P022",
@@ -229,7 +229,7 @@
       "lng": -75.1146155,
       "parking": 8,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P021",
@@ -248,7 +248,7 @@
       "lng": -75.1126024,
       "parking": 8,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "7/1/26"
+      "leaseStart": "7-1-26"
     },
     {
       "id": "P019",
@@ -267,7 +267,7 @@
       "lng": -75.1082386,
       "parking": 8,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "7/1/26"
+      "leaseStart": "7-1-26"
     },
     {
       "id": "P018",
@@ -286,7 +286,7 @@
       "lng": -75.119989,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P017",
@@ -305,7 +305,7 @@
       "lng": -75.112843,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P016",
@@ -324,7 +324,7 @@
       "lng": -75.1096925,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P015",
@@ -341,9 +341,9 @@
       "photo_folder_url": "https://drive.google.com/drive/folders/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL",
       "lat": 39.7098268,
       "lng": -75.1263067,
-      "parking": 6,
+      "parking": 5,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "8/1/26"
+      "leaseStart": "8-1-26"
     },
     {
       "id": "P014",
@@ -362,7 +362,7 @@
       "lng": -75.1096925,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "7/1/26"
+      "leaseStart": "7-1-26"
     },
     {
       "id": "P013",
@@ -381,7 +381,7 @@
       "lng": -75.1097951,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P012",
@@ -400,7 +400,7 @@
       "lng": -75.1036563,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P011",
@@ -419,7 +419,7 @@
       "lng": -75.1262783,
       "parking": 6,
       "data_source": "Coordinates from Nominatim geocoding",
-      "leaseStart": "6/1/26"
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P010",
@@ -438,7 +438,8 @@
       "lng": -75.1097153,
       "map_link": "https://www.google.com/maps/place/110+State+St,+Glassboro,+NJ+08028/@39.7056103,-75.1097153",
       "parking": 4,
-      "data_source": "Coordinates from Google Maps search"
+      "data_source": "Coordinates from Google Maps search",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P009",
@@ -456,7 +457,8 @@
       "lat": 39.7053964,
       "lng": -75.1099423,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P008",
@@ -474,7 +476,8 @@
       "lat": 39.7160214,
       "lng": -75.1202449,
       "parking": 5,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P007",
@@ -492,7 +495,8 @@
       "lat": 39.7013009,
       "lng": -75.1036563,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "7-1-26"
     },
     {
       "id": "P006",
@@ -510,7 +514,8 @@
       "lat": 39.7065992,
       "lng": -75.1107048,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "9-1-26"
     },
     {
       "id": "P005",
@@ -528,7 +533,8 @@
       "lat": 39.7055211,
       "lng": -75.1097968,
       "parking": 8,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P004",
@@ -546,7 +552,8 @@
       "lat": 39.7131399,
       "lng": -75.1126751,
       "parking": 8,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "p003",
@@ -564,7 +571,8 @@
       "lat": 39.709701,
       "lng": -75.112852,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "p002",
@@ -582,7 +590,8 @@
       "lat": 39.7065999,
       "lng": -75.1105199,
       "parking": 5,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "p001",
@@ -600,15 +609,16 @@
       "lat": 39.7050902,
       "lng": -75.1096925,
       "parking": 3,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P027",
       "title": "110 N. MAIN ST",
       "address": "110 N MAIN ST",
       "city": "Glassboro, NJ",
-      "beds": null,
-      "baths": null,
+      "beds": 7,
+      "baths": 2,
       "rent": 0,
       "sqft": null,
       "status": "rented",
@@ -618,15 +628,16 @@
       "lat": 39.7052623,
       "lng": -75.1112233,
       "parking": 10,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P029",
       "title": "113 STATE ST",
       "address": "113 STATE ST",
       "city": "Glassboro, NJ",
-      "beds": null,
-      "baths": null,
+      "beds": 5,
+      "baths": 2.5,
       "rent": 0,
       "sqft": null,
       "status": "rented",
@@ -636,7 +647,8 @@
       "lat": 39.7054896,
       "lng": -75.110209,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P030",
@@ -662,18 +674,19 @@
       "address": "503 N MAIN ST",
       "city": "Glassboro, NJ",
       "type": "Commercial",
-      "beds": null,
+      "beds": 0,
       "baths": 0.5,
       "rent": 2500,
       "sqft": 1250,
-      "status": "coming soon",
+      "status": "available",
       "photo_folder_id": "1jpmEFIY-XXLIXbi8kP3NvphJHnAacYeG",
       "photo_folder_name": "503 NORTH MAIN",
       "photo_folder_url": "https://drive.google.com/drive/folders/1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS",
       "lat": 39.7132766,
       "lng": -75.1125541,
       "parking": 9,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P039",
@@ -713,7 +726,8 @@
       "lat": 39.7389905,
       "lng": -75.0614045,
       "parking": 5,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "5-1-26"
     },
     {
       "id": "P035",
@@ -731,7 +745,8 @@
       "lat": null,
       "lng": null,
       "parking": 4,
-      "data_source": "Need coordinates - search: 107 E NEW ST Glassboro NJ (Apartment building)"
+      "data_source": "Need coordinates - search: 107 E NEW ST Glassboro NJ (Apartment building)",
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P036",
@@ -749,7 +764,8 @@
       "lat": null,
       "lng": null,
       "parking": 4,
-      "data_source": "Need coordinates - search: 107 E NEW ST Glassboro NJ (Same building as P035)"
+      "data_source": "Need coordinates - search: 107 E NEW ST Glassboro NJ (Same building as P035)",
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P037",
@@ -767,7 +783,8 @@
       "lat": null,
       "lng": null,
       "parking": 4,
-      "data_source": "Need coordinates - search: 109 E NEW ST Glassboro NJ (Apartment building)"
+      "data_source": "Need coordinates - search: 109 E NEW ST Glassboro NJ (Apartment building)",
+      "leaseStart": "6-1-27"
     },
     {
       "id": "P038",
@@ -785,7 +802,8 @@
       "lat": null,
       "lng": null,
       "parking": 4,
-      "data_source": "Need coordinates - search: 109 E NEW ST Glassboro NJ (Same building as P037)"
+      "data_source": "Need coordinates - search: 109 E NEW ST Glassboro NJ (Same building as P037)",
+      "leaseStart": "6-1-27"
     }
   ],
   "photo_folders_in_drive": [

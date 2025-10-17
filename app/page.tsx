@@ -18,6 +18,17 @@ export default function Home() {
   const [filter, setFilter] = useState<'all' | 'available' | 'rented'>('all');
   const [searchTerm, setSearchTerm] = useState('');
   const [mapActive, setMapActive] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if mobile view
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   // Fetch properties from API
   useEffect(() => {
@@ -162,6 +173,32 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Tagline Section */}
+      <div style={{
+        maxWidth: '1200px',
+        margin: '0 auto',
+        padding: '30px 20px 0 20px',
+        textAlign: 'center',
+      }}>
+        <h1 style={{
+          fontSize: 'clamp(24px, 5vw, 36px)',
+          fontWeight: 'bold',
+          color: '#0033CC',
+          marginBottom: '8px',
+          lineHeight: '1.2',
+        }}>
+          location, location, location... and parking!
+        </h1>
+        <h2 style={{
+          fontSize: 'clamp(18px, 4vw, 24px)',
+          fontWeight: '600',
+          color: '#666',
+          marginBottom: '0',
+        }}>
+          Student Rentals @ Rowan University
+        </h2>
+      </div>
+
       {/* Main Content */}
       <div style={{
         maxWidth: '1200px',
@@ -198,8 +235,8 @@ export default function Home() {
             onClick={() => setMapActive(true)}
             onTouchStart={() => setMapActive(true)}
           >
-            {/* Tap to Use Overlay for Mobile */}
-            {!mapActive && (
+            {/* Tap to Use Overlay for Mobile Only */}
+            {isMobile && !mapActive && (
               <div
                 style={{
                   position: 'absolute',
@@ -231,7 +268,7 @@ export default function Home() {
               </div>
             )}
             <div style={{
-              pointerEvents: mapActive ? 'auto' : 'none',
+              pointerEvents: (isMobile && !mapActive) ? 'none' : 'auto',
               height: '100%',
             }}>
               <Map

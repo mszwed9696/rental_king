@@ -16,7 +16,6 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
   const [filter, setFilter] = useState<'all' | 'available' | 'rented'>('all');
-  const [searchTerm, setSearchTerm] = useState('');
   const [mapActive, setMapActive] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -65,10 +64,7 @@ export default function Home() {
 
   const filteredProperties = properties.filter((property) => {
     const matchesFilter = filter === 'all' || property.status === filter;
-    const matchesSearch = searchTerm === '' ||
-      property.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      property.address.toLowerCase().includes(searchTerm.toLowerCase());
-    return matchesFilter && matchesSearch;
+    return matchesFilter;
   });
 
   const handlePropertyClick = (propertyId: string) => {
@@ -121,7 +117,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Search and Filter Bar */}
+      {/* Navigation Bar */}
       <div style={{
         background: 'white',
         padding: '20px 0',
@@ -138,22 +134,8 @@ export default function Home() {
           gap: '16px',
           flexWrap: 'wrap',
           alignItems: 'center',
+          justifyContent: 'space-between',
         }}>
-          <input
-            type="text"
-            placeholder="Enter an address or zipcode"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            style={{
-              flex: '1',
-              minWidth: '250px',
-              padding: '12px 16px',
-              border: '1px solid #ddd',
-              borderRadius: '4px',
-              fontSize: '14px',
-            }}
-          />
-
           <select
             value={filter}
             onChange={(e) => setFilter(e.target.value as 'all' | 'available' | 'rented')}
@@ -170,6 +152,32 @@ export default function Home() {
             <option value="available">Available ({properties.filter(p => p.status === 'available').length})</option>
             <option value="rented">Rented ({properties.filter(p => p.status === 'rented').length})</option>
           </select>
+
+          <a
+            href="mailto:rentalkinginfo@gmail.com?subject=Inquiry about Rental King Properties"
+            style={{
+              padding: '12px 24px',
+              background: '#00ff00',
+              color: '#0033CC',
+              borderRadius: '4px',
+              fontSize: '16px',
+              fontWeight: 'bold',
+              textDecoration: 'none',
+              cursor: 'pointer',
+              transition: 'background 0.2s, transform 0.2s',
+              display: 'inline-block',
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.background = '#00dd00';
+              e.currentTarget.style.transform = 'translateY(-2px)';
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.background = '#00ff00';
+              e.currentTarget.style.transform = 'translateY(0)';
+            }}
+          >
+            Contact Us
+          </a>
         </div>
       </div>
 

@@ -1,60 +1,37 @@
 import { NextResponse } from 'next/server';
-
-const GOOGLE_SHEETS_URL = 'https://docs.google.com/spreadsheets/d/1LJYK6OSqnsUz8DiL8YgpqsYkgAcJCwCfh0wp-C_iiwA/gviz/tq?tqx=out:json&sheet=listings_from_master_complete';
+import fs from 'fs';
+import path from 'path';
 
 export async function GET() {
   try {
-    const response = await fetch(GOOGLE_SHEETS_URL, {
-      next: { revalidate: 300 } // Cache for 5 minutes
-    });
+    // Read the complete property data JSON file
+    const filePath = path.join(process.cwd(), 'RENTAL_KING_COMPLETE_DATA.json');
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
 
-    const text = await response.text();
-    // Remove the callback wrapper from Google's JSONP response
-    const jsonText = text.substring(47, text.length - 2);
-    const data = JSON.parse(jsonText);
-
-    // Parse the Google Sheets data
-    const rows = data.table.rows;
-    const properties = rows.map((row: any) => {
-      const cells = row.c;
-
-      // Extract data from cells
-      const id = cells[0]?.v || '';
-      const title = cells[1]?.v || '';
-      const address = cells[2]?.v || '';
-      const city = cells[3]?.v || '';
-      const type = cells[4]?.v || '';
-      const beds = cells[5]?.v || 0;
-      const baths = cells[6]?.v || 0;
-      const rent = cells[7]?.v || 0;
-      const sqft = cells[8]?.v || 0;
-      const status = cells[9]?.v || 'available';
-      const photo_folder_id = cells[10]?.v || '';
-      const lat = cells[11]?.v || null;
-      const lng = cells[12]?.v || null;
-
+    // Transform properties to match the expected format
+    const properties = data.properties.map((prop: any) => {
       // Convert Google Drive folder ID to photo URL
       let photoUrl = '/logo.svg';
-      if (photo_folder_id) {
-        // Try to use the first image from the folder
-        photoUrl = `https://drive.google.com/uc?export=view&id=${photo_folder_id}`;
+      if (prop.photo_folder_id) {
+        photoUrl = `https://drive.google.com/uc?export=view&id=${prop.photo_folder_id}`;
       }
 
       return {
-        id,
-        title,
-        address,
-        city,
-        type,
-        beds: Number(beds),
-        baths: Number(baths),
-        rent: Number(rent),
-        sqft: Number(sqft),
-        status: status.toLowerCase(),
-        photo_folder_id,
+        id: prop.id,
+        title: prop.title,
+        address: prop.address,
+        city: prop.city,
+        type: prop.type || prop.property_type || '',
+        beds: prop.beds || 0,
+        baths: prop.baths || 0,
+        rent: prop.rent || 0,
+        sqft: prop.sqft || 0,
+        status: prop.status,
+        photo_folder_id: prop.photo_folder_id,
         photoUrl,
-        lat: lat ? Number(lat) : null,
-        lng: lng ? Number(lng) : null,
+        lat: prop.lat,
+        lng: prop.lng,
       };
     });
 

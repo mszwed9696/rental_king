@@ -652,21 +652,22 @@
     },
     {
       "id": "P030",
-      "title": "313 SILVER AVE",
-      "address": "313 SILVER AVE",
+      "title": "113 SILVER AVE",
+      "address": "113 SILVER AVE",
       "city": "Glassboro, NJ",
-      "beds": null,
-      "baths": null,
+      "beds": 7,
+      "baths": 3,
       "rent": 0,
       "sqft": null,
       "status": "available",
       "photo_folder_id": "1lvxy3ZNio1nv-E9Lgk0fcokr6ZxWReRn",
-      "photo_folder_name": "313 Silver Ave",
+      "photo_folder_name": "113 Silver Ave",
       "photo_folder_url": "https://drive.google.com/drive/folders/1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo",
       "lat": 39.7124112,
       "lng": -75.1138281,
       "parking": 8,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6-1-26"
     },
     {
       "id": "P040",

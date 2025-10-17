@@ -49,7 +49,7 @@ export const properties: Property[] = [
     photo_folder_id: '1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo',
     lat: 39.7025,
     lng: -75.1115,
-  parking: 17,
+  parking: 10,
   leaseStart: '6/1/26'
   },
   {
@@ -65,7 +65,7 @@ export const properties: Property[] = [
     photo_folder_id: '1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST',
     lat: 39.7018,
     lng: -75.1108,
-  parking: 0,
+  parking: 8,
   leaseStart: '6/1/26'
   },
   {
@@ -97,7 +97,7 @@ export const properties: Property[] = [
     photo_folder_id: '1o-CAFAyClQ-HeLlxf2oCDNp5LbAvJhW1',
     lat: 39.7036,
     lng: -75.1126,
-    parking: 12,
+    parking: 14,
     leaseStart: '6/1/27'
   },
   {
@@ -113,7 +113,7 @@ export const properties: Property[] = [
     photo_folder_id: '17yxF5axiegs8g5KARWo1mAIUW_JBqhqo',
     lat: 39.7037,
     lng: -75.1127,
-    parking: 12,
+    parking: 16,
     leaseStart: '6/1/27'
   },
   {
@@ -129,8 +129,8 @@ export const properties: Property[] = [
     photo_folder_id: '17j6Q4M1_7MMkE_LqD1fLM9MRzqvdG8bC',
     lat: 39.7030,
     lng: -75.1120,
-  parking: 12,
-  leaseStart: '6/1/27'
+  parking: 6,
+  leaseStart: '6/1/26'
   },
   {
     id: 'P020',
@@ -145,8 +145,8 @@ export const properties: Property[] = [
     photo_folder_id: '1EpFrC-RflSSVfrDdNJZmPQ21lnGSDLRo',
     lat: 39.7034,
     lng: -75.1124,
-  parking: 5,
-  leaseStart: '6/1/26'
+  parking: 7,
+  leaseStart: '7/1/26'
   },
   {
     id: 'P023',
@@ -161,7 +161,7 @@ export const properties: Property[] = [
     photo_folder_id: '1JDGrHLWSEmrT8Euf0Gzi8MwVXx63rV0p',
     lat: 39.7022,
     lng: -75.1135,
-  parking: 7,
+  parking: 8,
   leaseStart: '7/1/26'
   },
   {
@@ -178,7 +178,7 @@ export const properties: Property[] = [
     lat: 39.7042,
     lng: -75.1100,
   parking: 6,
-  leaseStart: '7/1/26'
+  leaseStart: '6/1/27'
   },
   {
     id: 'P022',
@@ -193,8 +193,8 @@ export const properties: Property[] = [
     photo_folder_id: '1Ca_Oq3-tqhJVnqtQ3L-B4VLcgrvYD_Sv',
     lat: 39.7040,
     lng: -75.1130,
-  parking: 7,
-  leaseStart: '6/1/27'
+  parking: 8,
+  leaseStart: '6/1/26'
   },
   {
     id: 'P021',
@@ -209,8 +209,8 @@ export const properties: Property[] = [
     photo_folder_id: '1Y-rfu1EBpvnYoS_BPvKRZJ7RmODZAhEQ',
     lat: 39.7031,
     lng: -75.1121,
-  parking: 6,
-  leaseStart: '6/1/26'
+  parking: 8,
+  leaseStart: '7/1/26'
   },
   {
     id: 'P019',
@@ -225,7 +225,7 @@ export const properties: Property[] = [
     photo_folder_id: '1xm0QI9FH2AdIO2P_wy5vOZgSDC7FkzDK',
     lat: 39.7028,
     lng: -75.1112,
-  parking: 6,
+  parking: 8,
   leaseStart: '7/1/26'
   },
   {
@@ -241,8 +241,8 @@ export const properties: Property[] = [
     photo_folder_id: '1SYjXZ0BClJzrrP_LGkdgI_TmDOZZd8aE',
     lat: 39.7015,
     lng: -75.1090,
-  parking: 7,
-  leaseStart: '7/1/26'
+  parking: 6,
+  leaseStart: '6/1/26'
   },
   {
     id: 'P017',
@@ -290,7 +290,7 @@ export const properties: Property[] = [
     lat: 39.7008,
     lng: -75.1098,
   parking: 6,
-  leaseStart: '6/1/26'
+  leaseStart: '8/1/26'
   },
   {
     id: 'P014',
@@ -306,7 +306,7 @@ export const properties: Property[] = [
     lat: 39.7013,
     lng: -75.1156,
   parking: 6,
-  leaseStart: '8/1/26'
+  leaseStart: '7/1/26'
   },
   {
     id: 'P013',
@@ -321,8 +321,8 @@ export const properties: Property[] = [
     photo_folder_id: '18RySpKOINYk5f5FUfSv9UzZ8jq8tBaRN',
     lat: 39.7024,
     lng: -75.1114,
-  parking: 5,
-  leaseStart: '7/1/26'
+  parking: 6,
+  leaseStart: '6/1/26'
   },
   {
     id: 'P012',
@@ -353,7 +353,7 @@ export const properties: Property[] = [
     photo_folder_id: '1WDXe8bmjmUthw3LrjPcC-dS0l4u0JNla',
     lat: 39.7007,
     lng: -75.1097,
-  parking: 5,
+  parking: 6,
   leaseStart: '6/1/26'
   }
 ];

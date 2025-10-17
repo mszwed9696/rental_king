@@ -169,14 +169,14 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           )
         )}
 
-        {/* Lease Start Date */}
+        {/* Start Date */}
         {property.leaseStart && (
           <div style={{
             fontSize: '14px',
             color: '#666',
             marginBottom: '12px'
           }}>
-            Lease Start: <strong>{property.leaseStart}</strong>
+            Start Date: <strong>{property.leaseStart}</strong>
           </div>
         )}
 

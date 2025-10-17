@@ -67,7 +67,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         {property.type && property.type.includes('Sorority Row') && (
           <div style={{
             position: 'absolute',
-            bottom: '30px',
+            top: '30px',
             left: '-40px',
             transform: 'rotate(-45deg)',
             width: '200px',
@@ -85,7 +85,23 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           </div>
         )}
 
-        {property.status === 'rented' && (
+        {/* Status Badge - prioritize New Construction, then Rented, then Available */}
+        {property.type && property.type.includes('New Construction') ? (
+          <div style={{
+            position: 'absolute',
+            top: '10px',
+            right: '10px',
+            background: '#0033CC',
+            color: '#00ff00',
+            padding: '4px 12px',
+            borderRadius: '4px',
+            fontSize: '12px',
+            fontWeight: 'bold',
+            zIndex: 10
+          }}>
+            NEW CONSTRUCTION
+          </div>
+        ) : property.status === 'rented' ? (
           <div style={{
             position: 'absolute',
             top: '10px',
@@ -100,8 +116,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           }}>
             RENTED
           </div>
-        )}
-        {property.status === 'available' && (
+        ) : property.status === 'available' ? (
           <div style={{
             position: 'absolute',
             top: '10px',
@@ -116,7 +131,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           }}>
             AVAILABLE
           </div>
-        )}
+        ) : null}
       </div>
 
       <div style={{ padding: '16px' }}>
@@ -177,23 +192,6 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             marginBottom: '12px'
           }}>
             Start Date: <strong>{property.leaseStart}</strong>
-          </div>
-        )}
-
-        {/* Type badge (if exists) */}
-        {property.type && !property.type.includes('Sorority Row') && (
-          <div style={{
-            fontSize: '13px',
-            color: '#00ff00',
-            fontWeight: '600',
-            marginTop: '8px',
-            marginBottom: '8px',
-            background: '#0033CC',
-            padding: '4px 8px',
-            borderRadius: '4px',
-            display: 'inline-block'
-          }}>
-            {property.type}
           </div>
         )}
 

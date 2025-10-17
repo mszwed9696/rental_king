@@ -33,6 +33,8 @@ export async function GET() {
         photoUrl,
         lat: prop.lat,
         lng: prop.lng,
+        parking: prop.parking,
+        leaseStart: prop.leaseStart,
       };
     });
 

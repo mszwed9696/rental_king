@@ -28,15 +28,16 @@
       "lng": -75.11292559,
       "map_link": "https://www.google.com/maps/search/?api=1&query=1%20SILVER%20AVE",
       "parking": 17,
-      "data_source": "Coordinates from Google Sheet"
+      "data_source": "Coordinates from Google Sheet",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P028",
       "title": "127 STATE ST",
       "address": "127 STATE ST",
       "city": "Glassboro, NJ",
-      "beds": null,
-      "baths": null,
+      "beds": 0,
+      "baths": 0,
       "rent": 9000,
       "sqft": null,
       "status": "available",
@@ -47,7 +48,8 @@
       "lng": -75.1106992,
       "map_link": "https://www.google.com/maps/place/127+State+St,+Glassboro,+NJ+08028/@39.7060528,-75.1106992",
       "parking": 10,
-      "data_source": "Coordinates from Google Maps search"
+      "data_source": "Coordinates from Google Maps search",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P025",
@@ -66,14 +68,15 @@
       "lng": -75.1094006,
       "map_link": "https://www.google.com/maps/place/101+New+St+E,+Glassboro,+NJ+08028/@39.7053346,-75.1094006",
       "parking": 8,
-      "data_source": "Coordinates from Google Maps search"
+      "data_source": "Coordinates from Google Maps search",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P031",
       "title": "38 CARPENTER ST",
       "address": "38 CARPENTER ST",
       "city": "Glassboro, NJ",
-      "type": "New Construction Coming Fall 2027",
+      "type": "Sorority Row",
       "property_type": "Sorority Row",
       "beds": 12,
       "baths": 6,
@@ -86,14 +89,15 @@
       "lat": 39.7092811,
       "lng": -75.1123326,
       "parking": 12,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/27"
     },
     {
       "id": "P032",
       "title": "42 CARPENTER ST",
       "address": "42 CARPENTER ST",
       "city": "Glassboro, NJ",
-      "type": "New Construction Coming Fall 2027",
+      "type": "Sorority Row",
       "property_type": "Sorority Row",
       "beds": 12,
       "baths": 6,
@@ -106,14 +110,15 @@
       "lat": 39.709427,
       "lng": -75.1125009,
       "parking": 14,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/27"
     },
     {
       "id": "P033",
       "title": "46 CARPENTER ST",
       "address": "46 CARPENTER ST",
       "city": "Glassboro, NJ",
-      "type": "New Construction Coming Fall 2027",
+      "type": "Sorority Row",
       "property_type": "Sorority Row",
       "beds": 12,
       "baths": 6,
@@ -126,7 +131,8 @@
       "lat": 39.7095645,
       "lng": -75.112676,
       "parking": 16,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/27"
     },
     {
       "id": "P024",
@@ -144,7 +150,8 @@
       "lat": 39.7130611,
       "lng": -75.1124537,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P020",
@@ -162,7 +169,8 @@
       "lat": 39.7091294,
       "lng": -75.1121701,
       "parking": 7,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "7/1/26"
     },
     {
       "id": "P023",
@@ -180,14 +188,15 @@
       "lat": 39.7066001,
       "lng": -75.1104891,
       "parking": 8,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "7/1/26"
     },
     {
       "id": "P034",
       "title": "MIDWAY RD",
       "address": "MIDWAY RD",
       "city": "Glassboro, NJ",
-      "type": "New Construction Coming Fall 2027",
+      "type": "New Construction Reserve Now",
       "property_type": "Reserve Now",
       "beds": 7,
       "baths": 3,
@@ -200,7 +209,8 @@
       "lat": 39.7123905,
       "lng": -75.1137828,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/27"
     },
     {
       "id": "P022",
@@ -218,7 +228,8 @@
       "lat": 39.7110901,
       "lng": -75.1146155,
       "parking": 8,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P021",
@@ -236,7 +247,8 @@
       "lat": 39.7131808,
       "lng": -75.1126024,
       "parking": 8,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "7/1/26"
     },
     {
       "id": "P019",
@@ -254,7 +266,8 @@
       "lat": 39.6851008,
       "lng": -75.1082386,
       "parking": 8,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "7/1/26"
     },
     {
       "id": "P018",
@@ -272,7 +285,8 @@
       "lat": 39.715427,
       "lng": -75.119989,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P017",
@@ -290,7 +304,8 @@
       "lat": 39.711834,
       "lng": -75.112843,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P016",
@@ -308,7 +323,8 @@
       "lat": 39.7050902,
       "lng": -75.1096925,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P015",
@@ -325,8 +341,9 @@
       "photo_folder_url": "https://drive.google.com/drive/folders/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL",
       "lat": 39.7098268,
       "lng": -75.1263067,
-      "parking": 5,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "parking": 6,
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "8/1/26"
     },
     {
       "id": "P014",
@@ -344,7 +361,8 @@
       "lat": 39.7050902,
       "lng": -75.1096925,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "7/1/26"
     },
     {
       "id": "P013",
@@ -362,7 +380,8 @@
       "lat": 39.7052468,
       "lng": -75.1097951,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P012",
@@ -380,7 +399,8 @@
       "lat": 39.7013009,
       "lng": -75.1036563,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P011",
@@ -398,7 +418,8 @@
       "lat": 39.7096394,
       "lng": -75.1262783,
       "parking": 6,
-      "data_source": "Coordinates from Nominatim geocoding"
+      "data_source": "Coordinates from Nominatim geocoding",
+      "leaseStart": "6/1/26"
     },
     {
       "id": "P010",

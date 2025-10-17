@@ -81,7 +81,7 @@ export default function Home() {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              opacity: 1
+              opacity: 1,
             }}
           />
         </div>
@@ -154,18 +154,20 @@ export default function Home() {
           boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
         }}>
           <h2 style={{
-            fontSize: '24px',
+            fontSize: 'clamp(20px, 5vw, 24px)',
             fontWeight: 'bold',
             color: '#0033CC',
             marginBottom: '16px',
           }}>
             Property Locations
           </h2>
-          <Map
-            properties={filteredProperties}
-            selectedProperty={selectedProperty}
-            onPropertyClick={handlePropertyClick}
-          />
+          <div style={{ height: 'min(600px, 70vh)' }}>
+            <Map
+              properties={filteredProperties}
+              selectedProperty={selectedProperty}
+              onPropertyClick={handlePropertyClick}
+            />
+          </div>
         </div>
 
         {/* Listings Section */}
@@ -186,7 +188,7 @@ export default function Home() {
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))',
             gap: '24px',
           }}>
             {filteredProperties.map((property) => (
@@ -227,12 +229,19 @@ export default function Home() {
           margin: '0 auto',
         }}>
           <img src="/logo.png" alt="Rental King" style={{ height: '80px', marginBottom: '16px' }} />
-          <p style={{ fontSize: '14px', marginBottom: '8px' }}>
+          <p style={{ fontSize: '14px', marginBottom: '16px' }}>
             Quality Student Housing near Rowan University
           </p>
-          <p style={{ fontSize: '14px', color: '#00ff00' }}>
-            Contact: DANDESILVIO@GMAIL.COM
-          </p>
+          <div style={{ fontSize: '14px', color: '#00ff00', marginBottom: '8px' }}>
+            <a href="mailto:rentalkinginfo@gmail.com" style={{ color: '#00ff00', textDecoration: 'none' }}>
+              Email: rentalkinginfo@gmail.com
+            </a>
+          </div>
+          <div style={{ fontSize: '14px', color: '#00ff00' }}>
+            <a href="sms:+18562156915" style={{ color: '#00ff00', textDecoration: 'none' }}>
+              Text: (856) 215-6915
+            </a>
+          </div>
         </div>
       </footer>
     </div>

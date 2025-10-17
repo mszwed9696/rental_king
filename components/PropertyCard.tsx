@@ -143,6 +143,33 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             {property.type}
           </div>
         )}
+
+        <a
+          href={`mailto:rentalkinginfo@gmail.com?subject=Inquiry about ${property.address}&body=Hi, I'm interested in learning more about the property at ${property.address}.`}
+          style={{
+            display: 'block',
+            marginTop: '12px',
+            background: '#00ff00',
+            color: '#0033CC',
+            padding: '10px 16px',
+            borderRadius: '4px',
+            textAlign: 'center',
+            fontWeight: 'bold',
+            fontSize: '14px',
+            textDecoration: 'none',
+            transition: 'background 0.2s, transform 0.2s'
+          }}
+          onMouseOver={(e) => {
+            e.currentTarget.style.background = '#00dd00';
+            e.currentTarget.style.transform = 'translateY(-2px)';
+          }}
+          onMouseOut={(e) => {
+            e.currentTarget.style.background = '#00ff00';
+            e.currentTarget.style.transform = 'translateY(0)';
+          }}
+        >
+          INQUIRE
+        </a>
       </div>
     </div>
   );

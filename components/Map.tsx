@@ -21,7 +21,7 @@ const createCustomIcon = (color: string) => {
   });
 };
 
-const availableIcon = createCustomIcon('#00ff00');
+const availableIcon = createCustomIcon('#00cc00');
 const rentedIcon = createCustomIcon('#0033CC');
 
 interface MapProps {

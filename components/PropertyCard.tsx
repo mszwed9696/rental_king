@@ -62,6 +62,29 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             style={{ width: '120px', height: 'auto' }}
           />
         )}
+
+        {/* Sorority Row Diagonal Sash for $9,900/mo properties */}
+        {property.rent === 9900 && property.type && property.type.includes('Sorority Row') && (
+          <div style={{
+            position: 'absolute',
+            top: '30px',
+            right: '-40px',
+            transform: 'rotate(45deg)',
+            width: '200px',
+            background: property.address === '38 CARPENTER ST' ? '#FFB6C1' :
+                       property.address === '42 CARPENTER ST' ? '#00ff00' : '#FF69B4',
+            color: 'white',
+            padding: '8px 0',
+            textAlign: 'center',
+            fontSize: '14px',
+            fontWeight: 'bold',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+            zIndex: 5
+          }}>
+            Sorority Row
+          </div>
+        )}
+
         {property.status === 'rented' && (
           <div style={{
             position: 'absolute',
@@ -72,7 +95,8 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             padding: '4px 12px',
             borderRadius: '4px',
             fontSize: '12px',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            zIndex: 10
           }}>
             RENTED
           </div>
@@ -87,7 +111,8 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             padding: '4px 12px',
             borderRadius: '4px',
             fontSize: '12px',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            zIndex: 10
           }}>
             AVAILABLE
           </div>
@@ -95,31 +120,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
       </div>
 
       <div style={{ padding: '16px' }}>
-        {property.rent > 0 && (
-          <div style={{
-            fontSize: '24px',
-            fontWeight: 'bold',
-            color: '#0033CC',
-            marginBottom: '8px'
-          }}>
-            ${property.rent.toLocaleString()}/mo
-          </div>
-        )}
-
-        <div style={{
-          fontSize: '14px',
-          color: '#666',
-          marginBottom: '12px',
-          display: 'flex',
-          gap: '12px'
-        }}>
-          <span><strong>{property.beds}</strong> Bedrooms</span>
-          <span><strong>{property.baths}</strong> Bathrooms</span>
-          {property.sqft && property.sqft > 0 && (
-            <span><strong>{property.sqft}</strong> sqft</span>
-          )}
-        </div>
-
+        {/* Address */}
         <div style={{
           fontSize: '16px',
           fontWeight: '600',
@@ -129,12 +130,64 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           {property.address}
         </div>
 
-        {property.type && (
+        {/* Bedrooms, Bathrooms, Parking */}
+        <div style={{
+          fontSize: '14px',
+          color: '#666',
+          marginBottom: '8px',
+          display: 'flex',
+          gap: '12px',
+          flexWrap: 'wrap'
+        }}>
+          <span><strong>{property.beds}</strong> Bedrooms</span>
+          <span><strong>{property.baths}</strong> Bathrooms</span>
+          {property.parking && property.parking > 0 && (
+            <span><strong>{property.parking}</strong> Parking</span>
+          )}
+        </div>
+
+        {/* Rent Price or RENTED */}
+        {property.status === 'rented' ? (
+          <div style={{
+            fontSize: '24px',
+            fontWeight: 'bold',
+            color: '#666',
+            marginBottom: '8px'
+          }}>
+            RENTED
+          </div>
+        ) : (
+          property.rent > 0 && (
+            <div style={{
+              fontSize: '24px',
+              fontWeight: 'bold',
+              color: '#0033CC',
+              marginBottom: '8px'
+            }}>
+              ${property.rent.toLocaleString()}/mo
+            </div>
+          )
+        )}
+
+        {/* Lease Start Date */}
+        {property.leaseStart && (
+          <div style={{
+            fontSize: '14px',
+            color: '#666',
+            marginBottom: '12px'
+          }}>
+            Lease Start: <strong>{property.leaseStart}</strong>
+          </div>
+        )}
+
+        {/* Type badge (if exists) */}
+        {property.type && !property.type.includes('Sorority Row') && (
           <div style={{
             fontSize: '13px',
             color: '#00ff00',
             fontWeight: '600',
             marginTop: '8px',
+            marginBottom: '8px',
             background: '#0033CC',
             padding: '4px 8px',
             borderRadius: '4px',

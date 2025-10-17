@@ -86,19 +86,23 @@ export default function Home() {
       <header style={{
         position: 'relative',
         overflow: 'hidden',
+        background: '#0033CC',
       }}>
         <div style={{
           position: 'relative',
           width: '100%',
-          height: 'clamp(120px, 15vh, 180px)',
+          height: 'auto',
+          maxHeight: '200px',
         }}>
           <img
             src="/banner.avif"
             alt="Rental King Banner"
             style={{
               width: '100%',
-              height: '100%',
-              objectFit: 'cover',
+              height: 'auto',
+              display: 'block',
+              maxHeight: '200px',
+              objectFit: 'contain',
               objectPosition: 'center',
               opacity: 1,
             }}

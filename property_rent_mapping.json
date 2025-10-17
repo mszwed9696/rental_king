@@ -1,0 +1,166 @@
+{
+  "P026": {
+    "title": "1 SILVER AVE",
+    "rent": 0
+  },
+  "P028": {
+    "title": "127 STATE ST",
+    "rent": 9000
+  },
+  "P025": {
+    "title": "101 E. NEW ST",
+    "rent": 5200
+  },
+  "P031": {
+    "title": "38 CARPENTER ST",
+    "rent": 9900
+  },
+  "P032": {
+    "title": "42 CARPENTER ST",
+    "rent": 9900
+  },
+  "P033": {
+    "title": "46 CARPENTER ST",
+    "rent": 9900
+  },
+  "P024": {
+    "title": "4 SILVER AVE",
+    "rent": 4500
+  },
+  "P020": {
+    "title": "34 CARPENTER ST",
+    "rent": 4200
+  },
+  "P023": {
+    "title": "18 WEST ST",
+    "rent": 4000
+  },
+  "P034": {
+    "title": "MIDWAY RD",
+    "rent": 5600
+  },
+  "P022": {
+    "title": "202 CARPENTER ST",
+    "rent": 0
+  },
+  "P021": {
+    "title": "5 SILVER AVE",
+    "rent": 3900
+  },
+  "P019": {
+    "title": "18 N. ACADEMY ST",
+    "rent": 3850
+  },
+  "P018": {
+    "title": "601 MORRIS AVE",
+    "rent": 3750
+  },
+  "P017": {
+    "title": "7 NORMAL BLVD",
+    "rent": 3750
+  },
+  "P016": {
+    "title": "311 W. NEW ST",
+    "rent": 3750
+  },
+  "P015": {
+    "title": "313 HAMILTON RD",
+    "rent": 3600
+  },
+  "P014": {
+    "title": "309 W. NEW ST",
+    "rent": 0
+  },
+  "P013": {
+    "title": "109 STATE ST",
+    "rent": 0
+  },
+  "P012": {
+    "title": "410 W. HIGH ST",
+    "rent": 3250
+  },
+  "P011": {
+    "title": "306 HAMILTON RD",
+    "rent": 3250
+  },
+  "P010": {
+    "title": "110 STATE ST",
+    "rent": 3125
+  },
+  "P009": {
+    "title": "121 STATE ST",
+    "rent": 3125
+  },
+  "P008": {
+    "title": "614 HESTON RD",
+    "rent": 0
+  },
+  "P007": {
+    "title": "146 E. HIGH ST",
+    "rent": 3000
+  },
+  "P006": {
+    "title": "4 WEST ST",
+    "rent": 3000
+  },
+  "P005": {
+    "title": "122 STATE ST",
+    "rent": 0
+  },
+  "P004": {
+    "title": "11 SILVER AVE",
+    "rent": 2700
+  },
+  "p003": {
+    "title": "50 CARPENTER ST",
+    "rent": 2175
+  },
+  "p002": {
+    "title": "16 WEST ST",
+    "rent": 2025
+  },
+  "p001": {
+    "title": "9 E. NEW ST",
+    "rent": 1800
+  },
+  "P027": {
+    "title": "110 N. MAIN ST",
+    "rent": 0
+  },
+  "P029": {
+    "title": "113 STATE ST",
+    "rent": 0
+  },
+  "P030": {
+    "title": "313 SILVER AVE",
+    "rent": 0
+  },
+  "P040": {
+    "title": "503 N. MAIN ST - GLASSBORO",
+    "rent": 2500
+  },
+  "P039": {
+    "title": "42 MONROE ST - SWEDESBORO",
+    "rent": 0
+  },
+  "P041": {
+    "title": "7 SPANISH OAK CT - TURNERSVILLE",
+    "rent": 0
+  },
+  "P035": {
+    "title": "107 E. NEW ST APT A",
+    "rent": 0
+  },
+  "P036": {
+    "title": "107 E. NEW ST APT B",
+    "rent": 0
+  },
+  "P037": {
+    "title": "109 E. NEW ST APT A",
+    "rent": 0
+  },
+  "P038": {
+    "title": "109 E. NEW ST APT B",
+    "rent": 0
+  }
+}

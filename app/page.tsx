@@ -66,7 +66,6 @@ export default function Home() {
     <div style={{ minHeight: '100vh', background: '#f5f5f5' }}>
       {/* Header with Banner */}
       <header style={{
-        background: '#0033CC',
         position: 'relative',
         overflow: 'hidden',
       }}>
@@ -82,7 +81,7 @@ export default function Home() {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              opacity: 0
+              opacity: 1
             }}
           />
         </div>
@@ -227,7 +226,7 @@ export default function Home() {
           maxWidth: '1200px',
           margin: '0 auto',
         }}>
-          <img src="/logo.svg" alt="Rental King" style={{ height: '50px', marginBottom: '16px' }} />
+          <img src="/logo.png" alt="Rental King" style={{ height: '80px', marginBottom: '16px' }} />
           <p style={{ fontSize: '14px', marginBottom: '8px' }}>
             Quality Student Housing near Rowan University
           </p>

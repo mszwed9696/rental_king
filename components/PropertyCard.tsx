@@ -57,7 +57,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           />
         ) : (
           <img
-            src="/logo.svg"
+            src="/logo.png"
             alt="Rental King"
             style={{ width: '120px', height: 'auto' }}
           />
@@ -122,16 +122,9 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
 
         <div style={{
           fontSize: '16px',
-          fontWeight: '500',
+          fontWeight: '600',
           color: '#333',
-          marginBottom: '4px'
-        }}>
-          {property.title}
-        </div>
-
-        <div style={{
-          fontSize: '14px',
-          color: '#666'
+          marginBottom: '8px'
         }}>
           {property.address}
         </div>

@@ -10,8 +10,9 @@ export interface Property {
   sqft?: number;
   status: 'available' | 'rented';
   photo_folder_id?: string;
-  lat?: number;
-  lng?: number;
+  photoUrl?: string;
+  lat?: number | null;
+  lng?: number | null;
 }
 
 // Property data from Google Sheets

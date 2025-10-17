@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import { properties, Property } from '../lib/properties';
+import { Property } from '../lib/properties';
 import PropertyCard from '../components/PropertyCard';
 
 // Dynamically import Map to avoid SSR issues with Leaflet
@@ -12,9 +12,27 @@ const Map = dynamic(() => import('../components/Map'), {
 });
 
 export default function Home() {
+  const [properties, setProperties] = useState<Property[]>([]);
+  const [loading, setLoading] = useState(true);
   const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
   const [filter, setFilter] = useState<'all' | 'available' | 'rented'>('all');
   const [searchTerm, setSearchTerm] = useState('');
+
+  // Fetch properties from API
+  useEffect(() => {
+    async function fetchProperties() {
+      try {
+        const response = await fetch('/api/properties');
+        const data = await response.json();
+        setProperties(data.properties || []);
+      } catch (error) {
+        console.error('Error fetching properties:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchProperties();
+  }, []);
 
   const filteredProperties = properties.filter((property) => {
     const matchesFilter = filter === 'all' || property.status === filter;
@@ -24,23 +42,57 @@ export default function Home() {
     return matchesFilter && matchesSearch;
   });
 
+  const handlePropertyClick = (propertyId: string) => {
+    const element = document.getElementById(`property-${propertyId}`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Highlight the property briefly
+      element.style.boxShadow = '0 0 0 3px #00ff00';
+      setTimeout(() => {
+        element.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+      }, 2000);
+    }
+  };
+
+  if (loading) {
+    return (
+      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <p>Loading properties...</p>
+      </div>
+    );
+  }
+
   return (
     <div style={{ minHeight: '100vh', background: '#f5f5f5' }}>
-      {/* Header */}
+      {/* Header with Banner */}
       <header style={{
         background: '#0033CC',
-        padding: '20px 0',
-        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+        position: 'relative',
+        overflow: 'hidden',
       }}>
         <div style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-          padding: '0 20px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
+          position: 'relative',
+          width: '100%',
+          height: '200px',
         }}>
-          <img src="/logo.svg" alt="Rental King" style={{ height: '60px' }} />
+          <img
+            src="/banner.avif"
+            alt="Rental King Banner"
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              opacity: 0.3
+            }}
+          />
+          <div style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+          }}>
+            <img src="/logo.svg" alt="Rental King" style={{ height: '100px' }} />
+          </div>
         </div>
       </header>
 
@@ -49,6 +101,9 @@ export default function Home() {
         background: 'white',
         padding: '20px 0',
         boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+        position: 'sticky',
+        top: 0,
+        zIndex: 100,
       }}>
         <div style={{
           maxWidth: '1200px',
@@ -115,7 +170,11 @@ export default function Home() {
           }}>
             Property Locations
           </h2>
-          <Map properties={filteredProperties} selectedProperty={selectedProperty} />
+          <Map
+            properties={filteredProperties}
+            selectedProperty={selectedProperty}
+            onPropertyClick={handlePropertyClick}
+          />
         </div>
 
         {/* Listings Section */}

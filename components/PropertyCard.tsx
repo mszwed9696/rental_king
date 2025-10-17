@@ -1,3 +1,4 @@
+import React from 'react';
 import { Property } from '../lib/properties';
 import Image from 'next/image';
 
@@ -7,13 +8,13 @@ interface PropertyCardProps {
 }
 
 export default function PropertyCard({ property, onHover }: PropertyCardProps) {
-  const imageUrl = property.photo_folder_id
-    ? `/images/rental-king-placeholder.jpg`
-    : '/images/rental-king-placeholder.jpg';
+  const [imageError, setImageError] = React.useState(false);
+  const imageUrl = property.photoUrl || '/logo.svg';
 
   return (
     <div
       className="property-card"
+      id={`property-${property.id}`}
       onMouseEnter={onHover}
       style={{
         background: 'white',
@@ -22,6 +23,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
         cursor: 'pointer',
         transition: 'transform 0.2s, box-shadow 0.2s',
+        scrollMarginTop: '100px',
       }}
       onMouseOver={(e) => {
         e.currentTarget.style.transform = 'translateY(-4px)';
@@ -35,17 +37,31 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
       <div style={{
         width: '100%',
         height: '200px',
-        background: '#0033CC',
+        background: imageError || !property.photoUrl ? '#0033CC' : '#f0f0f0',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        position: 'relative'
+        position: 'relative',
+        overflow: 'hidden'
       }}>
-        <img
-          src="/logo.svg"
-          alt="Rental King"
-          style={{ width: '120px', height: 'auto' }}
-        />
+        {!imageError && property.photoUrl && property.photoUrl !== '/logo.svg' ? (
+          <img
+            src={imageUrl}
+            alt={property.title}
+            onError={() => setImageError(true)}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover'
+            }}
+          />
+        ) : (
+          <img
+            src="/logo.svg"
+            alt="Rental King"
+            style={{ width: '120px', height: 'auto' }}
+          />
+        )}
         {property.status === 'rented' && (
           <div style={{
             position: 'absolute',

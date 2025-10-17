@@ -25,9 +25,10 @@ const rentedIcon = createCustomIcon('#0033ff');
 interface MapProps {
   properties: Property[];
   selectedProperty?: Property | null;
+  onPropertyClick?: (propertyId: string) => void;
 }
 
-export default function Map({ properties, selectedProperty }: MapProps) {
+export default function Map({ properties, selectedProperty, onPropertyClick }: MapProps) {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -61,6 +62,13 @@ export default function Map({ properties, selectedProperty }: MapProps) {
             key={property.id}
             position={[property.lat, property.lng]}
             icon={property.status === 'available' ? availableIcon : rentedIcon}
+            eventHandlers={{
+              click: () => {
+                if (onPropertyClick) {
+                  onPropertyClick(property.id);
+                }
+              }
+            }}
           >
             <Popup>
               <div style={{ padding: '8px' }}>

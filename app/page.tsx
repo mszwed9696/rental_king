@@ -157,8 +157,8 @@ export default function Home() {
             href="mailto:rentalkinginfo@gmail.com?subject=Inquiry about Rental King Properties"
             style={{
               padding: '12px 24px',
-              background: '#00ff00',
-              color: '#0033CC',
+              background: '#d3d3d3',
+              color: '#333',
               borderRadius: '4px',
               fontSize: '16px',
               fontWeight: 'bold',
@@ -168,11 +168,11 @@ export default function Home() {
               display: 'inline-block',
             }}
             onMouseOver={(e) => {
-              e.currentTarget.style.background = '#00dd00';
+              e.currentTarget.style.background = '#c0c0c0';
               e.currentTarget.style.transform = 'translateY(-2px)';
             }}
             onMouseOut={(e) => {
-              e.currentTarget.style.background = '#00ff00';
+              e.currentTarget.style.background = '#d3d3d3';
               e.currentTarget.style.transform = 'translateY(0)';
             }}
           >

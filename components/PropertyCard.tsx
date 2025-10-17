@@ -82,8 +82,8 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             position: 'absolute',
             top: '10px',
             right: '10px',
-            background: '#00ff00',
-            color: '#0033CC',
+            background: '#d3d3d3',
+            color: '#333',
             padding: '4px 12px',
             borderRadius: '4px',
             fontSize: '12px',
@@ -149,8 +149,8 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
           style={{
             display: 'block',
             marginTop: '12px',
-            background: '#00ff00',
-            color: '#0033CC',
+            background: '#d3d3d3',
+            color: '#333',
             padding: '10px 16px',
             borderRadius: '4px',
             textAlign: 'center',
@@ -160,11 +160,11 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             transition: 'background 0.2s, transform 0.2s'
           }}
           onMouseOver={(e) => {
-            e.currentTarget.style.background = '#00dd00';
+            e.currentTarget.style.background = '#c0c0c0';
             e.currentTarget.style.transform = 'translateY(-2px)';
           }}
           onMouseOut={(e) => {
-            e.currentTarget.style.background = '#00ff00';
+            e.currentTarget.style.background = '#d3d3d3';
             e.currentTarget.style.transform = 'translateY(0)';
           }}
         >

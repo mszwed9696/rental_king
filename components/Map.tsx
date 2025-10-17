@@ -52,7 +52,7 @@ export default function Map({ properties, selectedProperty, onPropertyClick }: M
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
       />
       {properties.map((property) => {
         if (!property.lat || !property.lng) return null;

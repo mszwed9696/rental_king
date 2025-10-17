@@ -1,0 +1,250 @@
+{
+  "timestamp": "2025-10-17T03:05:17.012Z",
+  "totalProperties": 41,
+  "alreadyExtracted": {
+    "P026": "10l60uUO6Sv7yS6xLysCeN0hC1c07siCk",
+    "P028": "1hWwdViw340dTg61LfHOFbflttapQz7ob"
+  },
+  "remainingToExtract": [
+    {
+      "id": "P025",
+      "address": "101 E. NEW ST",
+      "headerFolderId": "1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST",
+      "url": "https://drive.google.com/drive/folders/1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST"
+    },
+    {
+      "id": "P031",
+      "address": "38 CARPENTER ST",
+      "headerFolderId": "10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5",
+      "url": "https://drive.google.com/drive/folders/10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5"
+    },
+    {
+      "id": "P032",
+      "address": "42 CARPENTER ST",
+      "headerFolderId": "1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI",
+      "url": "https://drive.google.com/drive/folders/1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI"
+    },
+    {
+      "id": "P033",
+      "address": "46 CARPENTER ST",
+      "headerFolderId": "17yxF5axiegs8g5KAfvEehsNZFvl60WWI",
+      "url": "https://drive.google.com/drive/folders/17yxF5axiegs8g5KAfvEehsNZFvl60WWI"
+    },
+    {
+      "id": "P024",
+      "address": "4 SILVER AVE",
+      "headerFolderId": "17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo",
+      "url": "https://drive.google.com/drive/folders/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo"
+    },
+    {
+      "id": "P020",
+      "address": "34 CARPENTER ST",
+      "headerFolderId": "1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq",
+      "url": "https://drive.google.com/drive/folders/1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq"
+    },
+    {
+      "id": "P023",
+      "address": "18 WEST ST",
+      "headerFolderId": "1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH",
+      "url": "https://drive.google.com/drive/folders/1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH"
+    },
+    {
+      "id": "P034",
+      "address": "MIDWAY RD",
+      "headerFolderId": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "url": "https://drive.google.com/drive/folders/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2"
+    },
+    {
+      "id": "P022",
+      "address": "202 CARPENTER ST",
+      "headerFolderId": "1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK",
+      "url": "https://drive.google.com/drive/folders/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK"
+    },
+    {
+      "id": "P021",
+      "address": "5 SILVER AVE",
+      "headerFolderId": "1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX",
+      "url": "https://drive.google.com/drive/folders/1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX"
+    },
+    {
+      "id": "P019",
+      "address": "18 N. ACADEMY ST",
+      "headerFolderId": "1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q",
+      "url": "https://drive.google.com/drive/folders/1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q"
+    },
+    {
+      "id": "P018",
+      "address": "601 MORRIS AVE",
+      "headerFolderId": "1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n",
+      "url": "https://drive.google.com/drive/folders/1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n"
+    },
+    {
+      "id": "P017",
+      "address": "7 NORMAL BLVD",
+      "headerFolderId": "1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI",
+      "url": "https://drive.google.com/drive/folders/1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI"
+    },
+    {
+      "id": "P016",
+      "address": "311 W. NEW ST",
+      "headerFolderId": "1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG",
+      "url": "https://drive.google.com/drive/folders/1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG"
+    },
+    {
+      "id": "P015",
+      "address": "313 HAMILTON RD",
+      "headerFolderId": "13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL",
+      "url": "https://drive.google.com/drive/folders/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL"
+    },
+    {
+      "id": "P014",
+      "address": "309 W. NEW ST",
+      "headerFolderId": "1QavagCMjRk2anoVoHGTto-cBshSXGOsY",
+      "url": "https://drive.google.com/drive/folders/1QavagCMjRk2anoVoHGTto-cBshSXGOsY"
+    },
+    {
+      "id": "P013",
+      "address": "109 STATE ST",
+      "headerFolderId": "19RySpKOINYk3E_m2vePTl0jwUt25s7yN",
+      "url": "https://drive.google.com/drive/folders/19RySpKOINYk3E_m2vePTl0jwUt25s7yN"
+    },
+    {
+      "id": "P012",
+      "address": "410 W. HIGH ST",
+      "headerFolderId": "1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy",
+      "url": "https://drive.google.com/drive/folders/1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy"
+    },
+    {
+      "id": "P011",
+      "address": "306 HAMILTON RD",
+      "headerFolderId": "1WDXe8bmjmU63POz65qspmwU54zklyojj",
+      "url": "https://drive.google.com/drive/folders/1WDXe8bmjmU63POz65qspmwU54zklyojj"
+    },
+    {
+      "id": "P010",
+      "address": "110 STATE ST",
+      "headerFolderId": "1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE",
+      "url": "https://drive.google.com/drive/folders/1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE"
+    },
+    {
+      "id": "P009",
+      "address": "121 STATE ST",
+      "headerFolderId": "1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i",
+      "url": "https://drive.google.com/drive/folders/1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i"
+    },
+    {
+      "id": "P008",
+      "address": "614 HESTON RD",
+      "headerFolderId": "1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw",
+      "url": "https://drive.google.com/drive/folders/1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw"
+    },
+    {
+      "id": "P007",
+      "address": "146 E. HIGH ST",
+      "headerFolderId": "1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk",
+      "url": "https://drive.google.com/drive/folders/1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk"
+    },
+    {
+      "id": "P006",
+      "address": "4 WEST ST",
+      "headerFolderId": "1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi",
+      "url": "https://drive.google.com/drive/folders/1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi"
+    },
+    {
+      "id": "P005",
+      "address": "122 STATE ST",
+      "headerFolderId": "1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0",
+      "url": "https://drive.google.com/drive/folders/1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0"
+    },
+    {
+      "id": "P004",
+      "address": "11 SILVER AVE",
+      "headerFolderId": "14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT",
+      "url": "https://drive.google.com/drive/folders/14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT"
+    },
+    {
+      "id": "p003",
+      "address": "50 CARPENTER ST",
+      "headerFolderId": "1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV",
+      "url": "https://drive.google.com/drive/folders/1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV"
+    },
+    {
+      "id": "p002",
+      "address": "16 WEST ST",
+      "headerFolderId": "1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y",
+      "url": "https://drive.google.com/drive/folders/1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y"
+    },
+    {
+      "id": "p001",
+      "address": "9 E. NEW ST",
+      "headerFolderId": "1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp",
+      "url": "https://drive.google.com/drive/folders/1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp"
+    },
+    {
+      "id": "P027",
+      "address": "110 N MAIN ST",
+      "headerFolderId": "1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8",
+      "url": "https://drive.google.com/drive/folders/1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8"
+    },
+    {
+      "id": "P029",
+      "address": "113 STATE ST",
+      "headerFolderId": "18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI",
+      "url": "https://drive.google.com/drive/folders/18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI"
+    },
+    {
+      "id": "P030",
+      "address": "313 SILVER AVE",
+      "headerFolderId": "1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo",
+      "url": "https://drive.google.com/drive/folders/1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo"
+    },
+    {
+      "id": "P040",
+      "address": "503 N MAIN ST",
+      "headerFolderId": "1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS",
+      "url": "https://drive.google.com/drive/folders/1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS"
+    },
+    {
+      "id": "P039",
+      "address": "42 MONROE ST",
+      "headerFolderId": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "url": "https://drive.google.com/drive/folders/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2"
+    },
+    {
+      "id": "P041",
+      "address": "7 SPANISH OAK CT",
+      "headerFolderId": "18spc0D4-i7Th1z-DooF60CFH4tJdhw6b",
+      "url": "https://drive.google.com/drive/folders/18spc0D4-i7Th1z-DooF60CFH4tJdhw6b"
+    },
+    {
+      "id": "P035",
+      "address": "107 E NEW ST APT A",
+      "headerFolderId": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "url": "https://drive.google.com/drive/folders/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2"
+    },
+    {
+      "id": "P036",
+      "address": "107 E NEW ST APT B",
+      "headerFolderId": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "url": "https://drive.google.com/drive/folders/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2"
+    },
+    {
+      "id": "P037",
+      "address": "109 E NEW ST APT A",
+      "headerFolderId": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "url": "https://drive.google.com/drive/folders/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2"
+    },
+    {
+      "id": "P038",
+      "address": "109 E NEW ST APT B",
+      "headerFolderId": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "url": "https://drive.google.com/drive/folders/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2"
+    }
+  ],
+  "instructions": [
+    "1. Navigate to the Header folder URL",
+    "2. Double-click the first image file",
+    "3. Click \"More actions\" -> \"Open in new tab\"",
+    "4. Copy file ID from URL: https://drive.google.com/file/d/{FILE_ID}/view"
+  ]
+}

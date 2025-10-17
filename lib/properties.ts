@@ -1,0 +1,314 @@
+export interface Property {
+  id: string;
+  title: string;
+  address: string;
+  city: string;
+  type: string;
+  beds: number;
+  baths: number;
+  rent: number;
+  sqft?: number;
+  status: 'available' | 'rented';
+  photo_folder_id?: string;
+  lat?: number;
+  lng?: number;
+}
+
+// Property data from Google Sheets
+export const properties: Property[] = [
+  {
+    id: 'P026',
+    title: '1 SILVER AVE',
+    address: '1 SILVER AVE',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 17,
+    baths: 5,
+    rent: 0,
+    status: 'rented',
+    photo_folder_id: '1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr',
+    lat: 39.7029,
+    lng: -75.1119
+  },
+  {
+    id: 'P028',
+    title: '127 STATE ST',
+    address: '127 STATE ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 0,
+    baths: 0,
+    rent: 9000,
+    sqft: 0,
+    status: 'available',
+    photo_folder_id: '1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo',
+    lat: 39.7025,
+    lng: -75.1115
+  },
+  {
+    id: 'P025',
+    title: '101 E. NEW ST',
+    address: '101 E. NEW ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 8,
+    baths: 2,
+    rent: 5200,
+    status: 'available',
+    photo_folder_id: '1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST',
+    lat: 39.7018,
+    lng: -75.1108
+  },
+  {
+    id: 'P031',
+    title: '38 CARPENTER ST',
+    address: '38 CARPENTER ST',
+    city: 'Glassboro, NJ',
+    type: 'New Construction Sorority Row',
+    beds: 12,
+    baths: 6,
+    rent: 9900,
+    status: 'available',
+    photo_folder_id: '10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5',
+    lat: 39.7035,
+    lng: -75.1125
+  },
+  {
+    id: 'P032',
+    title: '42 CARPENTER ST',
+    address: '42 CARPENTER ST',
+    city: 'Glassboro, NJ',
+    type: 'New Construction Sorority Row',
+    beds: 12,
+    baths: 6,
+    rent: 9900,
+    status: 'available',
+    photo_folder_id: '1o-CAFAyClQ-HeLlxf2oCDNp5LbAvJhW1',
+    lat: 39.7036,
+    lng: -75.1126
+  },
+  {
+    id: 'P033',
+    title: '46 CARPENTER ST',
+    address: '46 CARPENTER ST',
+    city: 'Glassboro, NJ',
+    type: 'New Construction Sorority Row',
+    beds: 12,
+    baths: 6,
+    rent: 9900,
+    status: 'available',
+    photo_folder_id: '17yxF5axiegs8g5KARWo1mAIUW_JBqhqo',
+    lat: 39.7037,
+    lng: -75.1127
+  },
+  {
+    id: 'P024',
+    title: '4 SILVER AVE',
+    address: '4 SILVER AVE',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 5,
+    baths: 3,
+    rent: 4500,
+    status: 'available',
+    photo_folder_id: '17j6Q4M1_7MMkE_LqD1fLM9MRzqvdG8bC',
+    lat: 39.7030,
+    lng: -75.1120
+  },
+  {
+    id: 'P020',
+    title: '34 CARPENTER ST',
+    address: '34 CARPENTER ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 7,
+    baths: 2,
+    rent: 4200,
+    status: 'available',
+    photo_folder_id: '1EpFrC-RflSSVfrDdNJZmPQ21lnGSDLRo',
+    lat: 39.7034,
+    lng: -75.1124
+  },
+  {
+    id: 'P023',
+    title: '18 WEST ST',
+    address: '18 WEST ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 3.5,
+    rent: 4000,
+    status: 'available',
+    photo_folder_id: '1JDGrHLWSEmrT8Euf0Gzi8MwVXx63rV0p',
+    lat: 39.7022,
+    lng: -75.1135
+  },
+  {
+    id: 'P034',
+    title: 'MIDWAY RD',
+    address: 'MIDWAY RD',
+    city: 'Glassboro, NJ',
+    type: 'New Construction Reserve Now',
+    beds: 7,
+    baths: 3,
+    rent: 5600,
+    status: 'available',
+    photo_folder_id: '1C2LhA1owWwG6A-z7Jt5rqPYXZPE5kzRq',
+    lat: 39.7042,
+    lng: -75.1100
+  },
+  {
+    id: 'P022',
+    title: '202 CARPENTER ST',
+    address: '202 CARPENTER ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 3,
+    rent: 0,
+    status: 'rented',
+    photo_folder_id: '1Ca_Oq3-tqhJVnqtQ3L-B4VLcgrvYD_Sv',
+    lat: 39.7040,
+    lng: -75.1130
+  },
+  {
+    id: 'P021',
+    title: '5 SILVER AVE',
+    address: '5 SILVER AVE',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 2.5,
+    rent: 3900,
+    status: 'available',
+    photo_folder_id: '1Y-rfu1EBpvnYoS_BPvKRZJ7RmODZAhEQ',
+    lat: 39.7031,
+    lng: -75.1121
+  },
+  {
+    id: 'P019',
+    title: '18 N. ACADEMY ST',
+    address: '18 N. ACADEMY ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 7,
+    baths: 2,
+    rent: 3850,
+    status: 'available',
+    photo_folder_id: '1xm0QI9FH2AdIO2P_wy5vOZgSDC7FkzDK',
+    lat: 39.7028,
+    lng: -75.1112
+  },
+  {
+    id: 'P018',
+    title: '601 MORRIS AVE',
+    address: '601 MORRIS AVE',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 3,
+    rent: 3750,
+    status: 'available',
+    photo_folder_id: '1SYjXZ0BClJzrrP_LGkdgI_TmDOZZd8aE',
+    lat: 39.7015,
+    lng: -75.1090
+  },
+  {
+    id: 'P017',
+    title: '7 NORMAL BLVD',
+    address: '7 NORMAL BLVD',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 2,
+    rent: 3750,
+    status: 'available',
+    photo_folder_id: '1G5MfYkhDiqlwdDBbnwJR2YFSPqNY_Wlq',
+    lat: 39.7020,
+    lng: -75.1145
+  },
+  {
+    id: 'P016',
+    title: '311 W. NEW ST',
+    address: '311 W. NEW ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 2,
+    rent: 3750,
+    status: 'available',
+    photo_folder_id: '1FDbZKeFHo2T7oNZZ6MR-ziBw5LlFHj6v',
+    lat: 39.7012,
+    lng: -75.1155
+  },
+  {
+    id: 'P015',
+    title: '313 HAMILTON RD',
+    address: '313 HAMILTON RD',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 2,
+    rent: 3600,
+    status: 'available',
+    photo_folder_id: '13AxFU1_qJFvyUa-T5K_xI0UBBTWZxjb_',
+    lat: 39.7008,
+    lng: -75.1098
+  },
+  {
+    id: 'P014',
+    title: '309 W. NEW ST',
+    address: '309 W. NEW ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 5,
+    baths: 2.5,
+    rent: 0,
+    status: 'rented',
+    photo_folder_id: '1QavagCMjRk2saCYtdMv_1RvnKsCOxkj9',
+    lat: 39.7013,
+    lng: -75.1156
+  },
+  {
+    id: 'P013',
+    title: '109 STATE ST',
+    address: '109 STATE ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 6,
+    baths: 2,
+    rent: 0,
+    status: 'rented',
+    photo_folder_id: '18RySpKOINYk5f5FUfSv9UzZ8jq8tBaRN',
+    lat: 39.7024,
+    lng: -75.1114
+  },
+  {
+    id: 'P012',
+    title: '410 W. HIGH ST',
+    address: '410 W. HIGH ST',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 5,
+    baths: 2.5,
+    rent: 3250,
+    status: 'available',
+    photo_folder_id: '1CqQMGje0vjZjj8-NE1MF-rYRThfSFCt4',
+    lat: 39.7010,
+    lng: -75.1168
+  },
+  {
+    id: 'P011',
+    title: '306 HAMILTON RD',
+    address: '306 HAMILTON RD',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 5,
+    baths: 2.5,
+    rent: 3250,
+    status: 'available',
+    photo_folder_id: '1WDXe8bmjmUthw3LrjPcC-dS0l4u0JNla',
+    lat: 39.7007,
+    lng: -75.1097
+  }
+];

@@ -7,4 +7,6 @@ yarn-debug.log*
 yarn-error.log*
 dist/
 build/
+.next/
 
+.vercel

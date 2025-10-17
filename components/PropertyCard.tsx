@@ -1,4 +1,4 @@
-import { Property } from '@/lib/properties';
+import { Property } from '../lib/properties';
 import Image from 'next/image';
 
 interface PropertyCardProps {

@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
-import { properties, Property } from '@/lib/properties';
-import PropertyCard from '@/components/PropertyCard';
+import { properties, Property } from '../lib/properties';
+import PropertyCard from '../components/PropertyCard';
 
 // Dynamically import Map to avoid SSR issues with Leaflet
-const Map = dynamic(() => import('@/components/Map'), {
+const Map = dynamic(() => import('../components/Map'), {
   ssr: false,
   loading: () => <div style={{ width: '100%', height: '600px', background: '#e5e7eb' }}>Loading map...</div>,
 });

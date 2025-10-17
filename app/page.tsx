@@ -90,7 +90,7 @@ export default function Home() {
         <div style={{
           position: 'relative',
           width: '100%',
-          height: 'clamp(150px, 25vh, 200px)',
+          height: 'clamp(80px, 12vh, 150px)',
         }}>
           <img
             src="/banner.avif"

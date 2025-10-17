@@ -71,8 +71,8 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             left: '-40px',
             transform: 'rotate(-45deg)',
             width: '200px',
-            background: property.address === '38 CARPENTER ST' ? '#FFC0CB' :
-                       property.address === '42 CARPENTER ST' ? '#32CD32' : '#FF1493',
+            background: property.address === '38 CARPENTER ST' ? '#FFB6C1' :
+                       property.address === '42 CARPENTER ST' ? '#D946EF' : '#FFB6C1',
             color: 'white',
             padding: '8px 0',
             textAlign: 'center',

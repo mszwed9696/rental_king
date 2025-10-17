@@ -67,9 +67,9 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         {property.type && property.type.includes('Sorority Row') && (
           <div style={{
             position: 'absolute',
-            top: '30px',
-            right: '-40px',
-            transform: 'rotate(45deg)',
+            bottom: '30px',
+            left: '-40px',
+            transform: 'rotate(-45deg)',
             width: '200px',
             background: property.address === '38 CARPENTER ST' ? '#FFB6C1' :
                        property.address === '42 CARPENTER ST' ? '#00ff00' : '#FF69B4',
@@ -161,7 +161,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
             <div style={{
               fontSize: '24px',
               fontWeight: 'bold',
-              color: '#006400',
+              color: '#00cc00',
               marginBottom: '8px'
             }}>
               ${property.rent.toLocaleString()}/mo

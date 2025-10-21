@@ -805,6 +805,26 @@
       "parking": 4,
       "data_source": "Need coordinates - search: 109 E NEW ST Glassboro NJ (Same building as P037)",
       "leaseStart": "6-1-27"
+    },
+    {
+      "id": "P042",
+      "title": "5 WILSON",
+      "address": "5 WILSON",
+      "city": "Glassboro, NJ",
+      "type": "",
+      "beds": 5,
+      "baths": 2,
+      "rent": 3375,
+      "sqft": null,
+      "status": "available",
+      "photo_folder_id": "1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc",
+      "photo_folder_name": "5 WILSON",
+      "photo_folder_url": "https://drive.google.com/drive/folders/1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc",
+      "lat": 39.71464359104595,
+      "lng": -75.11472563046023,
+      "parking": 6,
+      "data_source": "Coordinates from Google Sheet",
+      "leaseStart": "6-1-26"
     }
   ],
   "photo_folders_in_drive": [

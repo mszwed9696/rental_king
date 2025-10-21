@@ -674,5 +674,21 @@ export const properties: Property[] = [
     lng: -75.10866995983035,
     parking: 4,
     leaseStart: '6-1-27'
+  },
+  {
+    id: 'P042',
+    title: '5 WILSON',
+    address: '5 WILSON',
+    city: 'Glassboro, NJ',
+    type: '',
+    beds: 5,
+    baths: 2,
+    rent: 3375,
+    status: 'available',
+    photo_folder_id: '1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc',
+    lat: 39.71464359104595,
+    lng: -75.11472563046023,
+    parking: 6,
+    leaseStart: '6-1-26'
   }
 ];

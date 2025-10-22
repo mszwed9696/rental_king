@@ -23,6 +23,7 @@ export async function GET() {
         title: prop.title,
         address: prop.address,
         city: prop.city,
+        email: prop.email || 'rentalkinginfo@gmail.com',
         type: prop.type || prop.property_type || '',
         beds: prop.beds || 0,
         baths: prop.baths || 0,

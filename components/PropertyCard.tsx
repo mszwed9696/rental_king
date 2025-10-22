@@ -226,7 +226,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         )}
 
         <a
-          href={`mailto:rentalkinginfo@gmail.com?subject=Inquiry about ${property.address}&body=Hi, I'm interested in learning more about the property at ${property.address}.`}
+          href={`mailto:${property.email || 'rentalkinginfo@gmail.com'}?subject=Inquiry about ${property.address}&body=Hi, I'm interested in learning more about the property at ${property.address}.`}
           style={{
             display: 'block',
             marginTop: '12px',

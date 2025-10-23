@@ -33,6 +33,13 @@ const headerImageFileIds = {
   '1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF': '18VuBsEDCRiQ2DWzfAYyqZEdYKfbPlkgr', // 8 Sherwood Lane (Hildebrant2)
   '1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv': '10JjLg_8nQd92-WW8g76SJry_pirF2fKV', // 305 N. Yale Rd (Insana2)
   '1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag': '1IZZrOZOf6MIcdmlddwEfZ9eZbcQ1cAC4', // 308 Swarthmore Rd (Insana3)
+  '1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ': '106Mm8Ad94OhKzDi79qpJBqyGPSLifq2I', // 303 N Lehigh Rd (Jayna13)
+  '1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t': '1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk', // 1 Pennsylvania Rd (Jayna1-7)
+  '1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq': '1QgVszJFAXTc2QU_9w17p2xeWSutLMBNL', // 126-128 S. Main St (Jayna8-11)
+  '1e_18y_YJasQIFguefGqR6yvJd_q89xfu': '1Sozm4c1db6jKR3tCF2tciyM_oBcnjPvJ', // 25 Zane St (Jayna12)
+  '1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr': '1cz-EK5AZIo8urXOccyx1oq6rJSfHNFud', // 349-351 Oakwood Ave (Jayna14-16)
+  '1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q': '1RypmmJYPCYQjyvxxK4rjQBE3j36U2P7h', // 357 Oakwood Ave (Jayna17-22)
+  '1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-': '1UZaaUesQ-6FejcsECaDzJV-TQMf9HPQT', // 6 Franklin Rd (Liscio1)
 };
 // ========================================
 

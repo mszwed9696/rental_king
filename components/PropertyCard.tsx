@@ -9,6 +9,7 @@ interface PropertyCardProps {
 
 export default function PropertyCard({ property, onHover }: PropertyCardProps) {
   const [imageError, setImageError] = React.useState(false);
+  const [imageLoaded, setImageLoaded] = React.useState(false);
   const imageUrl = property.photoUrl || '/logo.svg';
 
   return (
@@ -45,16 +46,33 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         overflow: 'hidden'
       }}>
         {!imageError && property.photoUrl && property.photoUrl !== '/logo.svg' ? (
-          <img
-            src={imageUrl}
-            alt={property.title}
-            onError={() => setImageError(true)}
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover'
-            }}
-          />
+          <>
+            <img
+              src={imageUrl}
+              alt={property.title}
+              onLoad={() => setImageLoaded(true)}
+              onError={() => setImageError(true)}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                opacity: imageLoaded ? 1 : 0,
+                transition: 'opacity 0.3s ease-in-out'
+              }}
+            />
+            {!imageLoaded && !imageError && (
+              <div style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                color: 'white',
+                fontSize: '14px'
+              }}>
+                Loading...
+              </div>
+            )}
+          </>
         ) : (
           <img
             src="/logo.png"

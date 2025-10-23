@@ -52,13 +52,10 @@ export async function GET() {
     const data = JSON.parse(fileContents);
 
     // Transform properties to match the expected format
-    const propertiesPromises = data.properties.map(async (prop: any) => {
-      let photoUrl = '/logo.svg';
-
-      if (prop.photo_folder_id) {
-        // Use Google Drive thumbnail API - works with folder IDs
-        photoUrl = `https://drive.google.com/thumbnail?id=${prop.photo_folder_id}&sz=w800`;
-      }
+    const properties = data.properties.map((prop: any) => {
+      // Use logo placeholder for all properties
+      // Google Drive URLs require authentication and don't work for public display
+      const photoUrl = '/logo.svg';
 
       return {
         id: prop.id,
@@ -80,8 +77,6 @@ export async function GET() {
         leaseStart: prop.leaseStart,
       };
     });
-
-    const properties = await Promise.all(propertiesPromises);
 
     return NextResponse.json({ properties }, {
       headers: {

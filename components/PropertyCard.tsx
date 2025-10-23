@@ -45,41 +45,11 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         position: 'relative',
         overflow: 'hidden'
       }}>
-        {!imageError && property.photoUrl && property.photoUrl !== '/logo.svg' ? (
-          <>
-            <img
-              src={imageUrl}
-              alt={property.title}
-              onLoad={() => setImageLoaded(true)}
-              onError={() => setImageError(true)}
-              style={{
-                width: '100%',
-                height: '100%',
-                objectFit: 'cover',
-                opacity: imageLoaded ? 1 : 0,
-                transition: 'opacity 0.3s ease-in-out'
-              }}
-            />
-            {!imageLoaded && !imageError && (
-              <div style={{
-                position: 'absolute',
-                top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
-                color: 'white',
-                fontSize: '14px'
-              }}>
-                Loading...
-              </div>
-            )}
-          </>
-        ) : (
-          <img
-            src="/logo.png"
-            alt="Rental King"
-            style={{ width: '120px', height: 'auto' }}
-          />
-        )}
+        <img
+          src="/logo.png"
+          alt="Rental King"
+          style={{ width: '120px', height: 'auto' }}
+        />
 
         {/* Sorority Row Diagonal Sash for properties with Sorority Row type */}
         {property.type && property.type.includes('Sorority Row') && (

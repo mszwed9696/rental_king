@@ -12,16 +12,49 @@ const path = require('path');
  */
 
 const photoFileIds = {
-  // Extracted photo IDs
-  "P028": "1hWwdViw340dTg61LfHOFbflttapQz7ob",  // 127 STATE ST
-  "P030": "1lvxy3ZNio1nv-E9Lgk0fcokr6ZxWReRn",  // 113 SILVER AVE
-  "P026": "10l60uUO6Sv7yS6xLysCeN0hC1c07siCk",  // 1 SILVER AVE
-  "P027": "1MORYDKCa7kFsFruX37z5_AycufVwUkLM",  // 110 N MAIN ST
-  "P025": "1n3Qd9DREInI7TrgcvtYrVZrwCrBmxAWb",  // 101 E. NEW ST
-  "P031": "1onABz2EebDnWrX8DIJss_QOcAd-wOdUU",  // 38 CARPENTER ST
-
-  // Add more as we extract them
-  // etc...
+  // All photo file IDs extracted from previous version
+  "P001": "1rKBLcW3XqjMEB-IHDU5abkcU7kfneX-1",
+  "P002": "1hlz8DnoNM3K4j69bTgC10N0mUU4r3kP0",
+  "P003": "1wa2pjpx-PZNlPKIRJwtXztPH7dmiJvY4",
+  "p003": "1wa2pjpx-PZNlPKIRJwtXztPH7dmiJvY4",
+  "P004": "1iMwlHDHgNNlaklRkrpk-5nkHYjWf_aT5",
+  "P005": "1vQKv6ZS44uViG5HJlNUD2XNsH_a1KvgE",
+  "P006": "17M5sgM2rbpAEXJWCMbPDgahDEoJXUeUT",
+  "P007": "1H--xb3UVQMNR6F6e5ujuBF4ZvIOU96rM",
+  "P008": "1ALj9Pg1IrKwQnBY5HlDLHMc_TJlKvHas",
+  "P009": "1H2xLXYkJWAUyZah3wdU9gFa6msM2b_No",
+  "P010": "1309OANWiYlrtVuv9437qmH7u5zFESgy3",
+  "P011": "1FzxhB3IooDqk-0d6aMAx_rZqL3UwFggV",
+  "P012": "1SORdSkEVLD4g425Q_2w2x3ATLIfUhjvE",
+  "P013": "1dwx2Ab5C7QsNWZtly-6MwnQYwLc2lPKr",
+  "P014": "1uPBQC5ZHBfmxpC6Yqap5w0V4mNlDmFII",
+  "P015": "1lsYLPsYNVge52vJvo3xr0KM-dMXIdCQd",
+  "P016": "17dQGRYKMw4TbVD9LvwTXDpRLHuAGuE3U",
+  "P017": "1AnlIlRfFQB8QCS05ojSnichpT3zS75_f",
+  "P018": "1R3ugG1mDupxZY3koXtHKDZJ7T4s7Fr6H",
+  "P019": "1V4Pmiq1hoUE7ec8NK6LtSRSYXNSOuknZ",
+  "P020": "1tQTb2qkRke81mAkxOAtAcIgJuiTbfp7k",
+  "P021": "1dK99BUiNAADVIeemrWvvzYLXS7jPls7h",
+  "P022": "1fLo106E-ZQ9MOu6CHfUM9v3u6Jn9jDBp",
+  "P023": "1BAe0zIGZ2u8zTJDDw95RfXTPoBVTGF_H",
+  "P024": "1_eSPLCFu1m7jvCZlKyoqKj5TCEIDy02b",
+  "P025": "1n3Qd9DREInI7TrgcvtYrVZrwCrBmxAWb",
+  "P026": "10l60uUO6Sv7yS6xLysCeN0hC1c07siCk",
+  "P027": "1MORYDKCa7kFsFruX37z5_AycufVwUkLM",
+  "P028": "1hWwdViw340dTg61LfHOFbflttapQz7ob",
+  "P029": "1wRm9ANv5E3DRGr6ujr_WXOrCZNnua5mq",
+  "P030": "1lvxy3ZNio1nv-E9Lgk0fcokr6ZxWReRn",
+  "P031": "1onABz2EebDnWrX8DIJss_QOcAd-wOdUU",
+  "P032": "1hvVPQwXdTssY7EH-Ie0lqLXQCGwScypd",
+  "P033": "1DvRolviiB6k1tUPHDDMMndytQ27o1GAU",
+  "P034": "1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP",
+  "P035": "1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP",
+  "P036": "1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP",
+  "P037": "1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP",
+  "P038": "1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP",
+  "P039": "1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP",
+  "P040": "1jpmEFIY-XXLIXbi8kP3NvphJHnAacYeG",
+  "P041": "1UBl9fIAmDV0hvFcPRmUqY4bU3Ukskk1l"
 };
 
 // Properties with their folder IDs (for reference)

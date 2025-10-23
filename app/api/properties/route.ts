@@ -56,9 +56,8 @@ export async function GET() {
       let photoUrl = '/logo.svg';
 
       if (prop.photo_folder_id) {
-        // Try multiple URL formats for maximum compatibility
-        // Format 1: Direct uc export (works for individual files shared from folders)
-        photoUrl = `https://drive.google.com/uc?export=view&id=${prop.photo_folder_id}`;
+        // Use Google Drive thumbnail API - works with folder IDs
+        photoUrl = `https://drive.google.com/thumbnail?id=${prop.photo_folder_id}&sz=w800`;
       }
 
       return {

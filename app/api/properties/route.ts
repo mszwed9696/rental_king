@@ -2,6 +2,48 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
+// Cache for photo URLs
+let photoCache: { [key: string]: string } = {};
+
+async function getFirstPhotoFromFolder(folderId: string): Promise<string> {
+  // Check cache first
+  if (photoCache[folderId]) {
+    return photoCache[folderId];
+  }
+
+  try {
+    // Try to fetch the folder page and extract photo IDs
+    const folderUrl = `https://drive.google.com/embeddedfolderview?id=${folderId}#list`;
+    const response = await fetch(folderUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; RentalKingBot/1.0)'
+      }
+    });
+
+    if (response.ok) {
+      const html = await response.text();
+
+      // Try to extract file IDs from the HTML
+      const fileIdMatches = html.match(/"fileId":"([^"]+)"/g);
+      if (fileIdMatches && fileIdMatches.length > 0) {
+        const firstFileId = fileIdMatches[0].match(/"fileId":"([^"]+)"/)?.[1];
+        if (firstFileId) {
+          const photoUrl = `https://drive.google.com/uc?export=view&id=${firstFileId}`;
+          photoCache[folderId] = photoUrl;
+          return photoUrl;
+        }
+      }
+    }
+  } catch (error) {
+    console.error(`Error fetching folder ${folderId}:`, error);
+  }
+
+  // Fallback: try direct embed thumbnail
+  const fallbackUrl = `https://drive.google.com/thumbnail?id=${folderId}&sz=w400`;
+  photoCache[folderId] = fallbackUrl;
+  return fallbackUrl;
+}
+
 export async function GET() {
   try {
     // Read the complete property data JSON file
@@ -10,13 +52,13 @@ export async function GET() {
     const data = JSON.parse(fileContents);
 
     // Transform properties to match the expected format
-    const properties = data.properties.map((prop: any) => {
-      // Convert Google Drive folder ID to photo URL
-      // Using multiple fallback formats for maximum compatibility
+    const propertiesPromises = data.properties.map(async (prop: any) => {
       let photoUrl = '/logo.svg';
+
       if (prop.photo_folder_id) {
-        // Try lh3.googleusercontent.com with size parameter for better loading
-        photoUrl = `https://lh3.googleusercontent.com/d/${prop.photo_folder_id}=w800-h600-c`;
+        // Try multiple URL formats for maximum compatibility
+        // Format 1: Direct uc export (works for individual files shared from folders)
+        photoUrl = `https://drive.google.com/uc?export=view&id=${prop.photo_folder_id}`;
       }
 
       return {
@@ -39,6 +81,8 @@ export async function GET() {
         leaseStart: prop.leaseStart,
       };
     });
+
+    const properties = await Promise.all(propertiesPromises);
 
     return NextResponse.json({ properties }, {
       headers: {

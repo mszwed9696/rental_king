@@ -53,9 +53,8 @@ export async function GET() {
 
     // Transform properties to match the expected format
     const properties = data.properties.map((prop: any) => {
-      // Use logo placeholder for all properties
-      // Google Drive URLs require authentication and don't work for public display
-      const photoUrl = '/logo.svg';
+      // Use photo URL from property data if available, otherwise use logo
+      const photoUrl = prop.photoUrl || '/logo.svg';
 
       return {
         id: prop.id,

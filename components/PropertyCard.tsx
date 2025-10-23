@@ -9,8 +9,8 @@ interface PropertyCardProps {
 
 export default function PropertyCard({ property, onHover }: PropertyCardProps) {
   const [imageError, setImageError] = React.useState(false);
-  const [imageLoaded, setImageLoaded] = React.useState(false);
   const imageUrl = property.photoUrl || '/logo.svg';
+  const hasRealPhoto = imageUrl !== '/logo.svg';
 
   return (
     <div
@@ -45,11 +45,24 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         position: 'relative',
         overflow: 'hidden'
       }}>
-        <img
-          src="/logo.png"
-          alt="Rental King"
-          style={{ width: '120px', height: 'auto' }}
-        />
+        {hasRealPhoto && !imageError ? (
+          <img
+            src={imageUrl}
+            alt={property.title}
+            onError={() => setImageError(true)}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover'
+            }}
+          />
+        ) : (
+          <img
+            src="/logo.png"
+            alt="Rental King"
+            style={{ width: '120px', height: 'auto' }}
+          />
+        )}
 
         {/* Sorority Row Diagonal Sash for properties with Sorority Row type */}
         {property.type && property.type.includes('Sorority Row') && (

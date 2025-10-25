@@ -350,16 +350,6 @@ export default function Home() {
           <p style={{ fontSize: '14px', marginBottom: '16px' }}>
             Quality Student Housing near Rowan University
           </p>
-          <div style={{ fontSize: '14px', color: '#00ff00', marginBottom: '8px' }}>
-            <a href="mailto:rentalkinginfo@gmail.com" style={{ color: '#00ff00', textDecoration: 'none' }}>
-              Email: rentalkinginfo@gmail.com
-            </a>
-          </div>
-          <div style={{ fontSize: '14px', color: '#00ff00' }}>
-            <a href="sms:+18562156915" style={{ color: '#00ff00', textDecoration: 'none' }}>
-              Text: (856) 215-6915
-            </a>
-          </div>
         </div>
       </footer>
     </div>

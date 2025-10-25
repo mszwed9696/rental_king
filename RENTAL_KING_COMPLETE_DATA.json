@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2025-10-25T21:54:02.562Z",
+    "updated": "2025-10-25T21:57:31.056Z",
     "totalProperties": 96
   },
   "properties": [
@@ -1105,7 +1105,7 @@
       "lat": 39.70324280658403,
       "lng": -75.12563071881658,
       "primaryPhoto": "",
-      "photoUrl": "",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1iTUwMZuR03pAeXq3BF5zCXVL-x928ahC=w800-h600-c",
       "photoUrlBackup": ""
     },
     {
@@ -2209,7 +2209,7 @@
       "lat": 39.70324280658403,
       "lng": -75.12563071881658,
       "primaryPhoto": "",
-      "photoUrl": "",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1iTUwMZuR03pAeXq3BF5zCXVL-x928ahC=w800-h600-c",
       "photoUrlBackup": ""
     }
   ]

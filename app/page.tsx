@@ -152,32 +152,6 @@ export default function Home() {
             <option value="available">Available ({properties.filter(p => p.status === 'available').length})</option>
             <option value="rented">Rented ({properties.filter(p => p.status === 'rented').length})</option>
           </select>
-
-          <a
-            href="mailto:rentalkinginfo@gmail.com?subject=Inquiry about Rental King Properties"
-            style={{
-              padding: '12px 24px',
-              background: '#d3d3d3',
-              color: '#333',
-              borderRadius: '4px',
-              fontSize: '16px',
-              fontWeight: 'bold',
-              textDecoration: 'none',
-              cursor: 'pointer',
-              transition: 'background 0.2s, transform 0.2s',
-              display: 'inline-block',
-            }}
-            onMouseOver={(e) => {
-              e.currentTarget.style.background = '#c0c0c0';
-              e.currentTarget.style.transform = 'translateY(-2px)';
-            }}
-            onMouseOut={(e) => {
-              e.currentTarget.style.background = '#d3d3d3';
-              e.currentTarget.style.transform = 'translateY(0)';
-            }}
-          >
-            Contact Us
-          </a>
         </div>
       </div>
 

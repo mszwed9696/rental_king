@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2025-10-25T21:57:31.056Z",
+    "updated": "2025-10-28T06:28:38.549Z",
     "totalProperties": 96
   },
   "properties": [
@@ -35,7 +35,7 @@
       "email": "carmeninsana@comcast.net",
       "type": "Residential",
       "beds": 7,
-      "baths": 2,
+      "baths": 3,
       "rent": 9000,
       "sqft": "",
       "status": "available",
@@ -53,7 +53,7 @@
     {
       "id": "Insana2",
       "title": "110 N. MAIN ST",
-      "address": "110 N MAIN ST",
+      "address": "110 N. MAIN ST",
       "city": "",
       "email": "carmeninsana@comcast.net",
       "type": "Residential",
@@ -102,7 +102,7 @@
       "address": "38 CARPENTER ST",
       "city": "New Construction Coming Fall 2027",
       "email": "rentalkinginfo@gmail.com",
-      "type": "New Construction Coming Fall 2027",
+      "type": "New Construction Coming Fall 2027 - Sorority Row",
       "beds": 12,
       "baths": 5.5,
       "rent": 9900,
@@ -125,7 +125,7 @@
       "address": "42 CARPENTER ST",
       "city": "New Construction Coming Fall 2027",
       "email": "rentalkinginfo@gmail.com",
-      "type": "New Construction Coming Fall 2027",
+      "type": "New Construction Coming Fall 2027 - Sorority Row",
       "beds": 12,
       "baths": 5.5,
       "rent": 9900,
@@ -148,7 +148,7 @@
       "address": "46 CARPENTER ST",
       "city": "New Construction Coming Fall 2027",
       "email": "rentalkinginfo@gmail.com",
-      "type": "New Construction Coming Fall 2027",
+      "type": "New Construction Coming Fall 2027 - Sorority Row",
       "beds": 12,
       "baths": 5.5,
       "rent": 9900,
@@ -300,7 +300,7 @@
       "lat": 39.711414726605724,
       "lng": -75.11436270761872,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1fLo106E-ZQ9MOu6CHfUM9v3u6Jn9jDBp=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1BAe0zIGZ2u8zTJDDw95RfXTPoBVTGF_H=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK/preview"
     },
     {
@@ -438,7 +438,7 @@
       "lat": 39.705569581454306,
       "lng": -75.11520792096053,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1uPBQC5ZHBfmxpC6Yqap5w0V4mNlDmFII=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/17dQGRYKMw4TbVD9LvwTXDpRLHuAGuE3U=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1QavagCMjRk2anoVoHGTto-cBshSXGOsY/preview"
     },
     {
@@ -535,8 +535,8 @@
     },
     {
       "id": "Allen1",
-      "title": "5 WILSON",
-      "address": "5 WILSON",
+      "title": "5 WILSON AVE",
+      "address": "5 WILSON AVE",
       "city": "",
       "email": "bradallenjr@verizon.net",
       "type": "Residential",
@@ -835,7 +835,7 @@
     {
       "id": "Pink8",
       "title": "7 SPANISH OAK CT - TURNERSVILLE",
-      "address": "7 SPANISH OAK CT",
+      "address": "7 SPANISH OAK CT - TURNERSVILLE",
       "city": "CUL-DE-SAC",
       "email": "rentalkinginfo@gmail.com",
       "type": "CUL-DE-SAC",
@@ -1134,7 +1134,7 @@
     {
       "id": "Max1",
       "title": "42 MONROE ST - SWEDESBORO",
-      "address": "42 MONROE ST",
+      "address": "42 MONROE ST - SWEDESBORO",
       "city": "LOGAN TWP SCHOOLS",
       "email": "rentalkinginfo@gmail.com",
       "type": "LOGAN TWP SCHOOLS",
@@ -1364,20 +1364,20 @@
     {
       "id": "Gold13",
       "title": "503 N. MAIN ST - GLASSBORO",
-      "address": "503 N MAIN ST",
-      "city": "\"1",
-      "email": "250 Sqft\"",
+      "address": "503 N. MAIN ST - GLASSBORO",
+      "city": "1,250 Sqft",
+      "email": "rentalkinginfo@gmail.com",
       "type": "\"1",
       "beds": 0,
-      "baths": 0,
-      "rent": 0,
+      "baths": 0.5,
+      "rent": 2500,
       "sqft": "2500",
       "status": "available",
       "photo_folder_id": "1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS",
       "photo_urls": "1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS",
       "map_link": "",
-      "parking": 0,
-      "leaseStart": "9",
+      "parking": 9,
+      "leaseStart": "6-1-26",
       "lat": 39.7134137943268,
       "lng": -75.11285825682481,
       "primaryPhoto": "-75.11285825682481\"",
@@ -1588,7 +1588,7 @@
       "lat": 39.708771701291695,
       "lng": -75.127042203474,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1XT4pxvRN81_Xx4BpVrSEfyV28Zag-9Wi=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TXfGXFlptTXTiexhp11HXLMnwWFxmDT2=w800-h600-c",
       "photoUrlBackup": ""
     },
     {
@@ -1893,7 +1893,7 @@
     {
       "id": "Pink11",
       "title": "107 E. NEW ST APT A",
-      "address": "107 E NEW ST APT A",
+      "address": "107 E. NEW ST APT A",
       "city": "",
       "email": "rentalkinginfo@gmail.com",
       "type": "Residential",
@@ -2123,7 +2123,7 @@
     {
       "id": "Pink12",
       "title": "107 E. NEW ST APT B",
-      "address": "107 E NEW ST APT B",
+      "address": "107 E. NEW ST APT B",
       "city": "",
       "email": "rentalkinginfo@gmail.com",
       "type": "Residential",
@@ -2146,7 +2146,7 @@
     {
       "id": "Gold17",
       "title": "109 E. NEW ST APT A",
-      "address": "109 E NEW ST APT A",
+      "address": "109 E. NEW ST APT A",
       "city": "",
       "email": "rentalkinginfo@gmail.com",
       "type": "Residential",
@@ -2169,7 +2169,7 @@
     {
       "id": "Gold18",
       "title": "109 E. NEW ST APT B",
-      "address": "109 E NEW ST APT B",
+      "address": "109 E. NEW ST APT B",
       "city": "",
       "email": "rentalkinginfo@gmail.com",
       "type": "Residential",

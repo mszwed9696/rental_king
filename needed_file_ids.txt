@@ -1,0 +1,77 @@
+=========================================
+RENTAL KING - FILE IDs NEEDED FOR PHOTO UPDATES
+=========================================
+
+Properties with folder IDs (3 properties - PRIORITY):
+------------------------------------------------------
+Copy and paste the header image FILE_ID for each:
+
+1. 4 SILVER AVE (ID: xxx)
+   Folder: https://drive.google.com/drive/folders/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo
+   → Go to folder → Open "header" folder → Get file ID of image
+   FILE_ID: _____________
+
+
+2. 16 WEST ST (ID: p002)
+   Folder: https://drive.google.com/drive/folders/1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y
+   → Go to folder → Open "header" folder → Get file ID of image
+   FILE_ID: _____________
+
+
+3. 9 E. NEW ST (ID: p001)
+   Folder: https://drive.google.com/drive/folders/1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp
+   → Go to folder → Open "header" folder → Get file ID of image
+   FILE_ID: _____________
+
+
+Properties WITHOUT folder IDs (19 properties):
+----------------------------------------------
+These need folder IDs from Google Sheet Column K first, then the header image FILE_IDs:
+
+Property Address           | Property ID  | Folder ID (Column K) | Header Image FILE_ID
+---------------------------|-------------|---------------------|---------------------
+408 Swarthmore Rd          | Humbert1    | __________________ | __________________
+115 Silver Ave             | Mcfadden2   | __________________ | __________________
+12 Holly Ave               | Agnes1      | __________________ | __________________
+321 W. High St             | Agnes 2     | __________________ | __________________
+339 Oakwood Ave            | Mcfadden3   | __________________ | __________________
+613 Whitman                | McFadden1   | __________________ | __________________
+8 Sherwood Lane            | Hildebrant2 | __________________ | __________________
+207 University Blvd        | Hildebrant1 | __________________ | __________________
+52 State St                | Agnes 3     | __________________ | __________________
+18 Wilson Ave              | Humbert2    | __________________ | __________________
+8 Fairmount Dr             | Hildebrant3 | __________________ | __________________
+306 Swarthmore Rd          | Insana1     | __________________ | __________________
+107 Church St Apt B        | Insana5     | __________________ | __________________
+107 Church St Apt A        | Insana4     | __________________ | __________________
+(No address)               | Liscio1     | __________________ | __________________
+(No address)               | Liscio2     | __________________ | __________________
+(No address)               | Liscio3     | __________________ | __________________
+(No address)               | Omalley1    | __________________ | __________________
+(No address)               | Omalley2    | __________________ | __________________
+
+
+HOW TO GET FILE IDs:
+===================
+1. Open the property folder in Google Drive
+2. Navigate to the "header" subfolder (or find the main header image)
+3. Right-click the image → "Get link"
+4. The link looks like: https://drive.google.com/file/d/FILE_ID_HERE/view
+5. Copy just the FILE_ID part (between /d/ and /view)
+
+EXAMPLE:
+From: https://drive.google.com/file/d/1ABC123xyz456/view?usp=sharing
+Copy: 1ABC123xyz456
+
+
+ONCE YOU HAVE THE FILE IDs:
+==========================
+Provide them in this JSON format:
+
+{
+  "17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo": "FILE_ID_HERE",
+  "1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y": "FILE_ID_HERE",
+  "1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp": "FILE_ID_HERE"
+}
+
+Or just paste the file IDs in a message and I'll format them for you!

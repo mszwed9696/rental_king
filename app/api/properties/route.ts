@@ -2,46 +2,26 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-// Cache for photo URLs
-let photoCache: { [key: string]: string } = {};
-
-async function getFirstPhotoFromFolder(folderId: string): Promise<string> {
-  // Check cache first
-  if (photoCache[folderId]) {
-    return photoCache[folderId];
-  }
-
-  try {
-    // Try to fetch the folder page and extract photo IDs
-    const folderUrl = `https://drive.google.com/embeddedfolderview?id=${folderId}#list`;
-    const response = await fetch(folderUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; RentalKingBot/1.0)'
-      }
-    });
-
-    if (response.ok) {
-      const html = await response.text();
-
-      // Try to extract file IDs from the HTML
-      const fileIdMatches = html.match(/"fileId":"([^"]+)"/g);
-      if (fileIdMatches && fileIdMatches.length > 0) {
-        const firstFileId = fileIdMatches[0].match(/"fileId":"([^"]+)"/)?.[1];
-        if (firstFileId) {
-          const photoUrl = `https://drive.google.com/uc?export=view&id=${firstFileId}`;
-          photoCache[folderId] = photoUrl;
-          return photoUrl;
-        }
-      }
-    }
-  } catch (error) {
-    console.error(`Error fetching folder ${folderId}:`, error);
-  }
-
-  // Fallback: try direct embed thumbnail
-  const fallbackUrl = `https://drive.google.com/thumbnail?id=${folderId}&sz=w400`;
-  photoCache[folderId] = fallbackUrl;
-  return fallbackUrl;
+interface PropertyData {
+  id: string;
+  title: string;
+  address: string;
+  city: string;
+  email?: string;
+  type?: string;
+  property_type?: string;
+  beds?: number;
+  baths?: number;
+  rent?: number;
+  sqft?: number;
+  status: string;
+  photo_folder_id?: string;
+  photoUrl?: string;
+  photoUrlBackup?: string;
+  lat?: number | null;
+  lng?: number | null;
+  parking?: number;
+  leaseStart?: string;
 }
 
 export async function GET() {
@@ -52,7 +32,7 @@ export async function GET() {
     const data = JSON.parse(fileContents);
 
     // Transform properties to match the expected format
-    const properties = data.properties.map((prop: any) => {
+    const properties = data.properties.map((prop: PropertyData) => {
       // Use photo URL from property data if available, otherwise use logo
       const photoUrl = prop.photoUrl || '/logo.svg';
 

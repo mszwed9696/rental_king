@@ -1,6 +1,5 @@
 import React from 'react';
 import { Property } from '../lib/properties';
-import Image from 'next/image';
 
 interface PropertyCardProps {
   property: Property;
@@ -79,7 +78,7 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
       <div style={{
         width: '100%',
         height: '200px',
-        background: imageError || !property.photoUrl ? '#0033CC' : '#f0f0f0',
+        background: allFailed || !property.photoUrl ? '#0033CC' : '#f0f0f0',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',

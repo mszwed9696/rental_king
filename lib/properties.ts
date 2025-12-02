@@ -12,6 +12,7 @@ export interface Property {
   status: 'available' | 'rented';
   photo_folder_id?: string;
   photoUrl?: string;
+  photoUrlBackup?: string;
   lat?: number | null;
   lng?: number | null;
   parking?: number;

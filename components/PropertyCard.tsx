@@ -8,9 +8,41 @@ interface PropertyCardProps {
 }
 
 export default function PropertyCard({ property, onHover }: PropertyCardProps) {
-  const [imageError, setImageError] = React.useState(false);
-  const imageUrl = property.photoUrl || '/logo.svg';
-  const hasRealPhoto = imageUrl !== '/logo.svg';
+  const [currentUrlIndex, setCurrentUrlIndex] = React.useState(0);
+  const [allFailed, setAllFailed] = React.useState(false);
+
+  // Generate multiple possible photo URLs to try
+  const possibleUrls = React.useMemo(() => {
+    const urls: string[] = [];
+    const folderId = property.photo_folder_id;
+
+    if (folderId && folderId.length > 10) {
+      // Try different Google Drive URL formats
+      urls.push(`https://drive.google.com/thumbnail?id=${folderId}&sz=w800`);
+      urls.push(`https://lh3.googleusercontent.com/d/${folderId}=w800-h600-c`);
+      urls.push(`https://drive.google.com/uc?export=view&id=${folderId}`);
+    }
+
+    // Fallback to property.photoUrl if it exists and is different
+    if (property.photoUrl && !urls.includes(property.photoUrl)) {
+      urls.push(property.photoUrl);
+    }
+
+    return urls;
+  }, [property.photo_folder_id, property.photoUrl]);
+
+  const currentImageUrl = possibleUrls[currentUrlIndex];
+  const hasRealPhoto = possibleUrls.length > 0 && !allFailed;
+
+  const handleImageError = () => {
+    if (currentUrlIndex < possibleUrls.length - 1) {
+      // Try next URL
+      setCurrentUrlIndex(prev => prev + 1);
+    } else {
+      // All URLs failed
+      setAllFailed(true);
+    }
+  };
 
   return (
     <div
@@ -45,11 +77,12 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
         position: 'relative',
         overflow: 'hidden'
       }}>
-        {hasRealPhoto && !imageError ? (
+        {hasRealPhoto ? (
           <img
-            src={imageUrl}
+            key={currentUrlIndex}
+            src={currentImageUrl}
             alt={property.title}
-            onError={() => setImageError(true)}
+            onError={handleImageError}
             style={{
               width: '100%',
               height: '100%',

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2025-11-21T07:07:57.396Z",
+    "updated": "2025-12-02T18:23:01.350Z",
     "totalProperties": 94
   },
   "properties": [
@@ -24,8 +24,9 @@
       "lat": 39.71316647164147,
       "lng": -75.11282905179587,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr=w800-h600-c"
     },
     {
       "id": "Insana1",
@@ -47,8 +48,9 @@
       "lat": 39.70561883411184,
       "lng": -75.11109231784664,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8=w800-h600-c"
     },
     {
       "id": "Sandcastle1",
@@ -70,8 +72,9 @@
       "lat": 39.70549142816666,
       "lng": -75.10941132883558,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST=w800-h600-c"
     },
     {
       "id": "Gold2",
@@ -93,8 +96,9 @@
       "lat": 39.709692897422386,
       "lng": -75.112355003474,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5=w800-h600-c"
     },
     {
       "id": "Gold3",
@@ -116,8 +120,9 @@
       "lat": 39.70976639723768,
       "lng": -75.11254108998077,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI=w800-h600-c"
     },
     {
       "id": "Gold4",
@@ -139,8 +144,9 @@
       "lat": 39.70995209677113,
       "lng": -75.11270546114521,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/17yxF5axiegs8g5KAfvEehsNZFvl60WWI=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/17yxF5axiegs8g5KAfvEehsNZFvl60WWI/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=17yxF5axiegs8g5KAfvEehsNZFvl60WWI&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=17yxF5axiegs8g5KAfvEehsNZFvl60WWI",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/17yxF5axiegs8g5KAfvEehsNZFvl60WWI=w800-h600-c"
     },
     {
       "id": "Insana2",
@@ -162,8 +168,9 @@
       "lat": 39.70617658201468,
       "lng": -75.11073138997521,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo=w800-h600-c"
     },
     {
       "id": "Jayna1",
@@ -185,8 +192,9 @@
       "lat": 39.71075473199128,
       "lng": -75.13036775559776,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ=w800-h600-c"
     },
     {
       "id": "Insana3",
@@ -208,8 +216,9 @@
       "lat": 39.71192504493065,
       "lng": -75.11490934580274,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo=w800-h600-c"
     },
     {
       "id": "Pink1",
@@ -231,8 +240,9 @@
       "lat": 39.712782884616054,
       "lng": -75.1140499488966,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c"
     },
     {
       "id": "Gold5",
@@ -254,8 +264,9 @@
       "lat": 39.71271450112623,
       "lng": -75.11288184688404,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo=w800-h600-c"
     },
     {
       "id": "Gold6",
@@ -277,8 +288,9 @@
       "lat": 39.70980153043538,
       "lng": -75.11216658813169,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq=w800-h600-c"
     },
     {
       "id": "Coconut1",
@@ -300,8 +312,9 @@
       "lat": 39.70634339856418,
       "lng": -75.10908712001577,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH=w800-h600-c"
     },
     {
       "id": "Coconut2",
@@ -323,8 +336,9 @@
       "lat": 39.711414726605724,
       "lng": -75.11436270761872,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK=w800-h600-c"
     },
     {
       "id": "Gold7",
@@ -346,8 +360,9 @@
       "lat": 39.71301822484058,
       "lng": -75.11316761425797,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX=w800-h600-c"
     },
     {
       "id": "Gold8",
@@ -369,8 +384,9 @@
       "lat": 39.70299192010835,
       "lng": -75.10952590779482,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q=w800-h600-c"
     },
     {
       "id": "Pink2",
@@ -392,8 +408,9 @@
       "lat": 39.71606214724719,
       "lng": -75.12007532295955,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n=w800-h600-c"
     },
     {
       "id": "Sandcastle2",
@@ -415,8 +432,9 @@
       "lat": 39.71213998461592,
       "lng": -75.11296150347391,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI=w800-h600-c"
     },
     {
       "id": "Pink3",
@@ -438,8 +456,9 @@
       "lat": 39.705623233052926,
       "lng": -75.11535276024092,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG=w800-h600-c"
     },
     {
       "id": "Humbert1",
@@ -461,8 +480,9 @@
       "lat": 39.70953290782313,
       "lng": -75.12970674580285,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1JldBUsDdzdjP460caUxRod92MCIoypZJ=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1JldBUsDdzdjP460caUxRod92MCIoypZJ/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1JldBUsDdzdjP460caUxRod92MCIoypZJ&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1JldBUsDdzdjP460caUxRod92MCIoypZJ",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1JldBUsDdzdjP460caUxRod92MCIoypZJ=w800-h600-c"
     },
     {
       "id": "MGDR1",
@@ -484,11 +504,12 @@
       "lat": 39.71015637064426,
       "lng": -75.12708901241695,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL=w800-h600-c"
     },
     {
-      "id": "Pink3",
+      "id": "Pink3b",
       "title": "309 W. NEW ST",
       "address": "309 W. NEW ST",
       "city": "",
@@ -507,8 +528,9 @@
       "lat": 39.705569581454306,
       "lng": -75.11520792096053,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1QavagCMjRk2anoVoHGTto-cBshSXGOsY=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1QavagCMjRk2anoVoHGTto-cBshSXGOsY/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1QavagCMjRk2anoVoHGTto-cBshSXGOsY&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1QavagCMjRk2anoVoHGTto-cBshSXGOsY",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1QavagCMjRk2anoVoHGTto-cBshSXGOsY=w800-h600-c"
     },
     {
       "id": "Insana4",
@@ -530,8 +552,9 @@
       "lat": 39.70559009861487,
       "lng": -75.11023876535266,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI=w800-h600-c"
     },
     {
       "id": "Allen1",
@@ -553,8 +576,9 @@
       "lat": 39.71443570190074,
       "lng": -75.11475353317036,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc=w800-h600-c"
     },
     {
       "id": "Gold9",
@@ -576,8 +600,9 @@
       "lat": 39.70582158428603,
       "lng": -75.11001504580308,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/19RySpKOINYk3E_m2vePTl0jwUt25s7yN=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/19RySpKOINYk3E_m2vePTl0jwUt25s7yN/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=19RySpKOINYk3E_m2vePTl0jwUt25s7yN&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=19RySpKOINYk3E_m2vePTl0jwUt25s7yN",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/19RySpKOINYk3E_m2vePTl0jwUt25s7yN=w800-h600-c"
     },
     {
       "id": "Pink4",
@@ -599,8 +624,9 @@
       "lat": 39.70433007981543,
       "lng": -75.11804624767404,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy=w800-h600-c"
     },
     {
       "id": "Pink5",
@@ -622,8 +648,9 @@
       "lat": 39.709650839063976,
       "lng": -75.12659548598,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1WDXe8bmjmU63POz65qspmwU54zklyojj=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1WDXe8bmjmU63POz65qspmwU54zklyojj/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1WDXe8bmjmU63POz65qspmwU54zklyojj&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1WDXe8bmjmU63POz65qspmwU54zklyojj",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1WDXe8bmjmU63POz65qspmwU54zklyojj=w800-h600-c"
     },
     {
       "id": "Gold10",
@@ -645,8 +672,9 @@
       "lat": 39.705622579370264,
       "lng": -75.10971532285726,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE=w800-h600-c"
     },
     {
       "id": "Agnes1",
@@ -668,8 +696,9 @@
       "lat": 39.703785988805755,
       "lng": -75.11765976114543,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1xg909ReIJwF9OSTDt6y6IG-Kr36Q7LAh=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1xg909ReIJwF9OSTDt6y6IG-Kr36Q7LAh/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1xg909ReIJwF9OSTDt6y6IG-Kr36Q7LAh&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1xg909ReIJwF9OSTDt6y6IG-Kr36Q7LAh",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1xg909ReIJwF9OSTDt6y6IG-Kr36Q7LAh=w800-h600-c"
     },
     {
       "id": "Agnes 2",
@@ -691,8 +720,9 @@
       "lat": 39.704253088582085,
       "lng": -75.11661586114543,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1073yZZ7ODzKeQeuVCSEVO3tq2wsA4pvK=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1073yZZ7ODzKeQeuVCSEVO3tq2wsA4pvK/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1073yZZ7ODzKeQeuVCSEVO3tq2wsA4pvK&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1073yZZ7ODzKeQeuVCSEVO3tq2wsA4pvK",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1073yZZ7ODzKeQeuVCSEVO3tq2wsA4pvK=w800-h600-c"
     },
     {
       "id": "Hildebrant1",
@@ -714,8 +744,9 @@
       "lat": 39.718248276719265,
       "lng": -75.12052664580243,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF=w800-h600-c"
     },
     {
       "id": "McFadden1",
@@ -737,8 +768,9 @@
       "lat": 39.71570179465731,
       "lng": -75.11752240347371,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU=w800-h600-c"
     },
     {
       "id": "Mcfadden2",
@@ -760,8 +792,9 @@
       "lat": 39.71169187156161,
       "lng": -75.11509275929605,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t=w800-h600-c"
     },
     {
       "id": "Mcfadden3",
@@ -783,8 +816,9 @@
       "lat": 39.70443749696511,
       "lng": -75.11961061881657,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1V8duWNp9fEbyIybLkfO163EB79wtEEux=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1V8duWNp9fEbyIybLkfO163EB79wtEEux/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1V8duWNp9fEbyIybLkfO163EB79wtEEux&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1V8duWNp9fEbyIybLkfO163EB79wtEEux",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1V8duWNp9fEbyIybLkfO163EB79wtEEux=w800-h600-c"
     },
     {
       "id": "Pink6",
@@ -806,8 +840,9 @@
       "lat": 39.705793944356614,
       "lng": -75.1103639653526,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i=w800-h600-c"
     },
     {
       "id": "Pink7",
@@ -829,8 +864,9 @@
       "lat": 39.716816933175636,
       "lng": -75.11896837797772,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw=w800-h600-c"
     },
     {
       "id": "Pink8",
@@ -852,8 +888,9 @@
       "lat": 39.701394674486735,
       "lng": -75.10694294050253,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk=w800-h600-c"
     },
     {
       "id": "Hildebrant2",
@@ -875,8 +912,9 @@
       "lat": 39.706618471562614,
       "lng": -75.12582374580296,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1zH3VIMeztLkMca2nqcAfh5IgM6KIpjJT=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1zH3VIMeztLkMca2nqcAfh5IgM6KIpjJT/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1zH3VIMeztLkMca2nqcAfh5IgM6KIpjJT&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1zH3VIMeztLkMca2nqcAfh5IgM6KIpjJT",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1zH3VIMeztLkMca2nqcAfh5IgM6KIpjJT=w800-h600-c"
     },
     {
       "id": "Gold11",
@@ -898,8 +936,9 @@
       "lat": 39.70636403356793,
       "lng": -75.10955382436376,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi=w800-h600-c"
     },
     {
       "id": "Jayna2",
@@ -921,8 +960,9 @@
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c"
     },
     {
       "id": "Gold12",
@@ -944,8 +984,9 @@
       "lat": 39.70591227932185,
       "lng": -75.10999891621618,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0=w800-h600-c"
     },
     {
       "id": "Agnes 3",
@@ -967,8 +1008,9 @@
       "lat": 39.70464293054591,
       "lng": -75.10880543415897,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1cNNaUYjo1mr4tOR7K3cw31mSZtSN66pW=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1cNNaUYjo1mr4tOR7K3cw31mSZtSN66pW/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1cNNaUYjo1mr4tOR7K3cw31mSZtSN66pW&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1cNNaUYjo1mr4tOR7K3cw31mSZtSN66pW",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1cNNaUYjo1mr4tOR7K3cw31mSZtSN66pW=w800-h600-c"
     },
     {
       "id": "Insana6",
@@ -990,8 +1032,9 @@
       "lat": 39.708584238946244,
       "lng": -75.12681490347403,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv=w800-h600-c"
     },
     {
       "id": "Insana7",
@@ -1013,8 +1056,9 @@
       "lat": 39.70893263077625,
       "lng": -75.12734380347405,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag=w800-h600-c"
     },
     {
       "id": "Hildebrant3",
@@ -1036,8 +1080,9 @@
       "lat": 39.71830487670584,
       "lng": -75.1189990053227,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1TorA5joziDp40I4lBxb1KaMlJLuZVzB7=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1TorA5joziDp40I4lBxb1KaMlJLuZVzB7/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1TorA5joziDp40I4lBxb1KaMlJLuZVzB7&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1TorA5joziDp40I4lBxb1KaMlJLuZVzB7",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1TorA5joziDp40I4lBxb1KaMlJLuZVzB7=w800-h600-c"
     },
     {
       "id": "Humbert2",
@@ -1059,8 +1104,9 @@
       "lat": 39.71385660264939,
       "lng": -75.11499281881622,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/14MKCxwgf7fCRPW8CIKFqfdv0jEMplXWB=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/14MKCxwgf7fCRPW8CIKFqfdv0jEMplXWB/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=14MKCxwgf7fCRPW8CIKFqfdv0jEMplXWB&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=14MKCxwgf7fCRPW8CIKFqfdv0jEMplXWB",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/14MKCxwgf7fCRPW8CIKFqfdv0jEMplXWB=w800-h600-c"
     },
     {
       "id": "Hee1",
@@ -1082,8 +1128,9 @@
       "lat": 39.70324280658403,
       "lng": -75.12563071881658,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo=w800-h600-c"
     },
     {
       "id": "Hee2",
@@ -1105,8 +1152,9 @@
       "lat": 39.703208006617245,
       "lng": -75.11619686114547,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta=w800-h600-c"
     },
     {
       "id": "Pink9",
@@ -1128,8 +1176,9 @@
       "lat": 39.712719004716725,
       "lng": -75.11375059412491,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT=w800-h600-c"
     },
     {
       "id": "Caruso1",
@@ -1151,8 +1200,9 @@
       "lat": 39.70096393550669,
       "lng": -75.10633728998124,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD=w800-h600-c"
     },
     {
       "id": "Hee3",
@@ -1174,8 +1224,9 @@
       "lat": 39.703208006617245,
       "lng": -75.11619686114547,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta=w800-h600-c"
     },
     {
       "id": "Hee4",
@@ -1197,8 +1248,9 @@
       "lat": 39.715908288729096,
       "lng": -75.1202985034737,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1jfSPqCALtYtUHTmNzzgCNiKxoKo56EqE=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1jfSPqCALtYtUHTmNzzgCNiKxoKo56EqE/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1jfSPqCALtYtUHTmNzzgCNiKxoKo56EqE&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1jfSPqCALtYtUHTmNzzgCNiKxoKo56EqE",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1jfSPqCALtYtUHTmNzzgCNiKxoKo56EqE=w800-h600-c"
     },
     {
       "id": "Hee5",
@@ -1220,8 +1272,9 @@
       "lat": 39.71551497156093,
       "lng": -75.11767564580255,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1REd8EfmMS5GCgupJk2C4HKuu8Vhrektw=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1REd8EfmMS5GCgupJk2C4HKuu8Vhrektw/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1REd8EfmMS5GCgupJk2C4HKuu8Vhrektw&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1REd8EfmMS5GCgupJk2C4HKuu8Vhrektw",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1REd8EfmMS5GCgupJk2C4HKuu8Vhrektw=w800-h600-c"
     },
     {
       "id": "Hee6",
@@ -1243,8 +1296,9 @@
       "lat": 39.71504547748629,
       "lng": -75.11762853230934,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1xqOEmk6jQ2ImUbNPGusNtIhjF9tJdmfU=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1xqOEmk6jQ2ImUbNPGusNtIhjF9tJdmfU/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1xqOEmk6jQ2ImUbNPGusNtIhjF9tJdmfU&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1xqOEmk6jQ2ImUbNPGusNtIhjF9tJdmfU",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1xqOEmk6jQ2ImUbNPGusNtIhjF9tJdmfU=w800-h600-c"
     },
     {
       "id": "Hee7",
@@ -1266,8 +1320,9 @@
       "lat": 39.71604390003196,
       "lng": -75.1170667458025,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1z-mnv507GN9myeAqX9VocEeKxeDtxMUG=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1z-mnv507GN9myeAqX9VocEeKxeDtxMUG/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1z-mnv507GN9myeAqX9VocEeKxeDtxMUG&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1z-mnv507GN9myeAqX9VocEeKxeDtxMUG",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1z-mnv507GN9myeAqX9VocEeKxeDtxMUG=w800-h600-c"
     },
     {
       "id": "Hee8",
@@ -1289,8 +1344,9 @@
       "lat": 39.716576988248946,
       "lng": -75.12011510347362,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4=w800-h600-c"
     },
     {
       "id": "Hee9",
@@ -1312,8 +1368,9 @@
       "lat": 39.706051817525584,
       "lng": -75.13133376114534,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1IQXZRhOoPdwkqrUlk7btZ1ZRorNL6H-s=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1IQXZRhOoPdwkqrUlk7btZ1ZRorNL6H-s/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1IQXZRhOoPdwkqrUlk7btZ1ZRorNL6H-s&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1IQXZRhOoPdwkqrUlk7btZ1ZRorNL6H-s",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1IQXZRhOoPdwkqrUlk7btZ1ZRorNL6H-s=w800-h600-c"
     },
     {
       "id": "Gold13",
@@ -1335,8 +1392,9 @@
       "lat": 39.7134137943268,
       "lng": -75.11285825682481,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS=w800-h600-c"
     },
     {
       "id": "Liscio1",
@@ -1358,8 +1416,9 @@
       "lat": 39.70196800780406,
       "lng": -75.1231136881321,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-=w800-h600-c"
     },
     {
       "id": "Hee10",
@@ -1381,8 +1440,9 @@
       "lat": 39.70527656445197,
       "lng": -75.12638496529182,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Lurp0KRhjlLyMH18mqfZMcXruFQAGVIh=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Lurp0KRhjlLyMH18mqfZMcXruFQAGVIh/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1Lurp0KRhjlLyMH18mqfZMcXruFQAGVIh&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1Lurp0KRhjlLyMH18mqfZMcXruFQAGVIh",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1Lurp0KRhjlLyMH18mqfZMcXruFQAGVIh=w800-h600-c"
     },
     {
       "id": "Jayna3",
@@ -1404,8 +1464,9 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c"
     },
     {
       "id": "Jayna4",
@@ -1427,8 +1488,9 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c"
     },
     {
       "id": "Jayna5",
@@ -1450,8 +1512,9 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c"
     },
     {
       "id": "Jayna6",
@@ -1473,8 +1536,9 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c"
     },
     {
       "id": "Hee11",
@@ -1496,8 +1560,9 @@
       "lat": 39.70302668036421,
       "lng": -75.1230822304608,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1a8-28ImFw_NIRn9Imy9nHyta1wwKoEd0=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1a8-28ImFw_NIRn9Imy9nHyta1wwKoEd0/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1a8-28ImFw_NIRn9Imy9nHyta1wwKoEd0&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1a8-28ImFw_NIRn9Imy9nHyta1wwKoEd0",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1a8-28ImFw_NIRn9Imy9nHyta1wwKoEd0=w800-h600-c"
     },
     {
       "id": "Hee12",
@@ -1519,8 +1584,9 @@
       "lat": 39.71693467156069,
       "lng": -75.11956440347367,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1gAjWtLf_iJsHa3upM14cZadU8FiFe6iP=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1gAjWtLf_iJsHa3upM14cZadU8FiFe6iP/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1gAjWtLf_iJsHa3upM14cZadU8FiFe6iP&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1gAjWtLf_iJsHa3upM14cZadU8FiFe6iP",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1gAjWtLf_iJsHa3upM14cZadU8FiFe6iP=w800-h600-c"
     },
     {
       "id": "Insana5",
@@ -1542,8 +1608,9 @@
       "lat": 39.708771701291695,
       "lng": -75.127042203474,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1SCtVwQKAbq_EuWkUo2DYlkAUhMmWNW64=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1SCtVwQKAbq_EuWkUo2DYlkAUhMmWNW64/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1SCtVwQKAbq_EuWkUo2DYlkAUhMmWNW64&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1SCtVwQKAbq_EuWkUo2DYlkAUhMmWNW64",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1SCtVwQKAbq_EuWkUo2DYlkAUhMmWNW64=w800-h600-c"
     },
     {
       "id": "Jayna7",
@@ -1565,8 +1632,9 @@
       "lat": 39.69972435884718,
       "lng": -75.11531948018954,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1e_18y_YJasQIFguefGqR6yvJd_q89xfu=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1e_18y_YJasQIFguefGqR6yvJd_q89xfu/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1e_18y_YJasQIFguefGqR6yvJd_q89xfu&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1e_18y_YJasQIFguefGqR6yvJd_q89xfu",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1e_18y_YJasQIFguefGqR6yvJd_q89xfu=w800-h600-c"
     },
     {
       "id": "Gold14",
@@ -1588,8 +1656,9 @@
       "lat": 39.70990119569285,
       "lng": -75.11291440347397,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV=w800-h600-c"
     },
     {
       "id": "Gold15",
@@ -1611,8 +1680,9 @@
       "lat": 39.70632276355425,
       "lng": -75.10928560347412,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y=w800-h600-c"
     },
     {
       "id": "Gold16",
@@ -1634,8 +1704,9 @@
       "lat": 39.70520406486557,
       "lng": -75.11023132878663,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp=w800-h600-c"
     },
     {
       "id": "Caruso2",
@@ -1657,8 +1728,9 @@
       "lat": 39.70096393550669,
       "lng": -75.10633728998124,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD=w800-h600-c"
     },
     {
       "id": "Jayna8",
@@ -1680,8 +1752,9 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c"
     },
     {
       "id": "Jayna9",
@@ -1703,8 +1776,9 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c"
     },
     {
       "id": "Jayna10",
@@ -1726,8 +1800,9 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c"
     },
     {
       "id": "Jayna11",
@@ -1749,8 +1824,9 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c"
     },
     {
       "id": "Jayna12",
@@ -1772,8 +1848,9 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c"
     },
     {
       "id": "Jayna13",
@@ -1795,8 +1872,9 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c"
     },
     {
       "id": "Jayna14",
@@ -1818,8 +1896,9 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c"
     },
     {
       "id": "Insana9",
@@ -1841,8 +1920,9 @@
       "lat": 39.70142448993608,
       "lng": -75.11512040347445,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk=w800-h600-c"
     },
     {
       "id": "Pink10",
@@ -1864,8 +1944,9 @@
       "lat": 39.705335374076846,
       "lng": -75.10891960093483,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c"
     },
     {
       "id": "Insana8",
@@ -1887,8 +1968,9 @@
       "lat": 39.70142448993608,
       "lng": -75.11512040347445,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk=w800-h600-c"
     },
     {
       "id": "Jayna15",
@@ -1910,8 +1992,9 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c"
     },
     {
       "id": "Jayna16",
@@ -1933,8 +2016,9 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c"
     },
     {
       "id": "Jayna17",
@@ -1956,8 +2040,9 @@
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c"
     },
     {
       "id": "Jayna18",
@@ -1979,8 +2064,9 @@
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c"
     },
     {
       "id": "Jayna19",
@@ -2002,8 +2088,9 @@
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c"
     },
     {
       "id": "Jayna20",
@@ -2025,8 +2112,9 @@
       "lat": 39.70478510998917,
       "lng": -75.12073023237244,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c"
     },
     {
       "id": "Jayna21",
@@ -2048,8 +2136,9 @@
       "lat": 39.70478510998917,
       "lng": -75.12073023237244,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c"
     },
     {
       "id": "Jayna22",
@@ -2071,8 +2160,9 @@
       "lat": 39.70478510998917,
       "lng": -75.12073023237244,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c"
     },
     {
       "id": "Pink11",
@@ -2094,8 +2184,9 @@
       "lat": 39.705343628199685,
       "lng": -75.10879621932558,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c"
     },
     {
       "id": "Gold17",
@@ -2117,8 +2208,9 @@
       "lat": 39.70532711995304,
       "lng": -75.10866210888076,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c"
     },
     {
       "id": "Gold18",
@@ -2140,8 +2232,9 @@
       "lat": 39.705335374076846,
       "lng": -75.10856554936049,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c"
     },
     {
       "id": "Hee13",
@@ -2163,8 +2256,9 @@
       "lat": 39.70324280658403,
       "lng": -75.12563071881658,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo/preview"
+      "photoUrl": "https://drive.google.com/thumbnail?id=1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo&sz=w800",
+      "photoUrlBackup": "https://drive.google.com/uc?export=view&id=1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo",
+      "photoUrlAlternative": "https://lh3.googleusercontent.com/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo=w800-h600-c"
     }
   ]
 }

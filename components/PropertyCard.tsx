@@ -14,22 +14,31 @@ export default function PropertyCard({ property, onHover }: PropertyCardProps) {
   // Generate multiple possible photo URLs to try
   const possibleUrls = React.useMemo(() => {
     const urls: string[] = [];
-    const folderId = property.photo_folder_id;
 
-    if (folderId && folderId.length > 10) {
-      // Try different Google Drive URL formats
-      urls.push(`https://drive.google.com/thumbnail?id=${folderId}&sz=w800`);
-      urls.push(`https://lh3.googleusercontent.com/d/${folderId}=w800-h600-c`);
-      urls.push(`https://drive.google.com/uc?export=view&id=${folderId}`);
-    }
-
-    // Fallback to property.photoUrl if it exists and is different
-    if (property.photoUrl && !urls.includes(property.photoUrl)) {
+    // FIRST: Try the existing photoUrl if it exists (this was working before)
+    if (property.photoUrl && property.photoUrl !== '/logo.svg') {
       urls.push(property.photoUrl);
     }
 
+    // SECOND: Try photoUrlBackup if it exists
+    if (property.photoUrlBackup && !urls.includes(property.photoUrlBackup)) {
+      urls.push(property.photoUrlBackup);
+    }
+
+    // THIRD: Try alternative formats using folder_id
+    const folderId = property.photo_folder_id;
+    if (folderId && folderId.length > 10) {
+      const altUrl1 = `https://lh3.googleusercontent.com/d/${folderId}=w800-h600-c`;
+      const altUrl2 = `https://drive.google.com/thumbnail?id=${folderId}&sz=w800`;
+      const altUrl3 = `https://drive.google.com/uc?export=view&id=${folderId}`;
+
+      if (!urls.includes(altUrl1)) urls.push(altUrl1);
+      if (!urls.includes(altUrl2)) urls.push(altUrl2);
+      if (!urls.includes(altUrl3)) urls.push(altUrl3);
+    }
+
     return urls;
-  }, [property.photo_folder_id, property.photoUrl]);
+  }, [property.photoUrl, property.photoUrlBackup, property.photo_folder_id]);
 
   const currentImageUrl = possibleUrls[currentUrlIndex];
   const hasRealPhoto = possibleUrls.length > 0 && !allFailed;

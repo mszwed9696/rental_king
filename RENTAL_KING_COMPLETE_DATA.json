@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2025-11-21T07:07:57.396Z",
-    "totalProperties": 94
+    "updated": "2025-10-28T06:28:38.549Z",
+    "totalProperties": 96
   },
   "properties": [
     {
@@ -24,11 +24,34 @@
       "lat": 39.71316647164147,
       "lng": -75.11282905179587,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/10l60uUO6Sv7yS6xLysCeN0hC1c07siCk=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1QVTUs88c41PoudjYPtQK2EuJS5bjkmpr/preview"
     },
     {
       "id": "Insana1",
+      "title": "127 STATE ST",
+      "address": "127 STATE ST",
+      "city": "",
+      "email": "carmeninsana@comcast.net",
+      "type": "Residential",
+      "beds": 7,
+      "baths": 3,
+      "rent": 9000,
+      "sqft": "",
+      "status": "available",
+      "photo_folder_id": "1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo",
+      "photo_urls": "https://drive.google.com/drive/folders/1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo?usp=drive_link",
+      "map_link": "",
+      "parking": 10,
+      "leaseStart": "6-1-26",
+      "lat": 39.70617658201468,
+      "lng": -75.11073138997521,
+      "primaryPhoto": "",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1hWwdViw340dTg61LfHOFbflttapQz7ob=w800-h600-c",
+      "photoUrlBackup": ""
+    },
+    {
+      "id": "Insana2",
       "title": "110 N. MAIN ST",
       "address": "110 N. MAIN ST",
       "city": "",
@@ -47,8 +70,8 @@
       "lat": 39.70561883411184,
       "lng": -75.11109231784664,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1nrp7feQlcvRCMVDAYAOWlEkmDBXBPOd8/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1MORYDKCa7kFsFruX37z5_AycufVwUkLM=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Sandcastle1",
@@ -70,7 +93,7 @@
       "lat": 39.70549142816666,
       "lng": -75.10941132883558,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1n3Qd9DREInI7TrgcvtYrVZrwCrBmxAWb=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1MS9mcTPJbVA6Oh08advP-g-x7GvXxIST/preview"
     },
     {
@@ -79,12 +102,12 @@
       "address": "38 CARPENTER ST",
       "city": "New Construction Coming Fall 2027",
       "email": "rentalkinginfo@gmail.com",
-      "type": "Residential",
+      "type": "New Construction Coming Fall 2027 - Sorority Row",
       "beds": 12,
       "baths": 5.5,
       "rent": 9900,
       "sqft": "",
-      "status": "available",
+      "status": "New Construction Coming Fall 2027",
       "photo_folder_id": "10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5",
       "photo_urls": "",
       "map_link": "",
@@ -93,7 +116,7 @@
       "lat": 39.709692897422386,
       "lng": -75.112355003474,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1onABz2EebDnWrX8DIJss_QOcAd-wOdUU=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/10skcGxV0vOu56mOMCGA-bgDM4vnIEyf5/preview"
     },
     {
@@ -102,12 +125,12 @@
       "address": "42 CARPENTER ST",
       "city": "New Construction Coming Fall 2027",
       "email": "rentalkinginfo@gmail.com",
-      "type": "Residential",
+      "type": "New Construction Coming Fall 2027 - Sorority Row",
       "beds": 12,
       "baths": 5.5,
       "rent": 9900,
       "sqft": "",
-      "status": "available",
+      "status": "New Construction Coming Fall 2027",
       "photo_folder_id": "1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI",
       "photo_urls": "",
       "map_link": "",
@@ -116,7 +139,7 @@
       "lat": 39.70976639723768,
       "lng": -75.11254108998077,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1hvVPQwXdTssY7EH-Ie0lqLXQCGwScypd=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1o-CAFAyClQ-HeL1x8O5OpOWitKhWkaZI/preview"
     },
     {
@@ -125,12 +148,12 @@
       "address": "46 CARPENTER ST",
       "city": "New Construction Coming Fall 2027",
       "email": "rentalkinginfo@gmail.com",
-      "type": "Residential",
+      "type": "New Construction Coming Fall 2027 - Sorority Row",
       "beds": 12,
       "baths": 5.5,
       "rent": 9900,
       "sqft": "",
-      "status": "available",
+      "status": "New Construction Coming Fall 2027",
       "photo_folder_id": "17yxF5axiegs8g5KAfvEehsNZFvl60WWI",
       "photo_urls": "",
       "map_link": "",
@@ -139,34 +162,11 @@
       "lat": 39.70995209677113,
       "lng": -75.11270546114521,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/17yxF5axiegs8g5KAfvEehsNZFvl60WWI=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1DvRolviiB6k1tUPHDDMMndytQ27o1GAU=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/17yxF5axiegs8g5KAfvEehsNZFvl60WWI/preview"
     },
     {
-      "id": "Insana2",
-      "title": "127 STATE ST",
-      "address": "127 STATE ST",
-      "city": "",
-      "email": "carmeninsana@comcast.net",
-      "type": "Residential",
-      "beds": 7,
-      "baths": 3,
-      "rent": 9000,
-      "sqft": "",
-      "status": "available",
-      "photo_folder_id": "1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo",
-      "photo_urls": "https://drive.google.com/drive/folders/1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo?usp=drive_link",
-      "map_link": "",
-      "parking": 10,
-      "leaseStart": "6-1-26",
-      "lat": 39.70617658201468,
-      "lng": -75.11073138997521,
-      "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Cg0C5qNDMWst3_KfUsGlbSwljwC5KZXo/preview"
-    },
-    {
-      "id": "Jayna1",
+      "id": "Jayna13",
       "title": "303 N LEHIGH RD",
       "address": "303 N LEHIGH RD",
       "city": "",
@@ -185,8 +185,8 @@
       "lat": 39.71075473199128,
       "lng": -75.13036775559776,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1jEs-H615yOcQLUOM08bw4ANkGEVW2ORZ/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/106Mm8Ad94OhKzDi79qpJBqyGPSLifq2I=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Insana3",
@@ -208,8 +208,8 @@
       "lat": 39.71192504493065,
       "lng": -75.11490934580274,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1X6BmJP9t4eMY6NRwHfe0rUahLkYOp3Yo/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1lvxy3ZNio1nv-E9Lgk0fcokr6ZxWReRn=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Pink1",
@@ -217,12 +217,12 @@
       "address": "MIDWAY RD",
       "city": "New Construction Coming Fall 2027",
       "email": "rentalkinginfo@gmail.com",
-      "type": "Residential",
+      "type": "New Construction Coming Fall 2027",
       "beds": 7,
       "baths": 3,
       "rent": 5600,
       "sqft": "",
-      "status": "available",
+      "status": "New Construction Coming Fall 2027",
       "photo_folder_id": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
       "photo_urls": "",
       "map_link": "",
@@ -231,7 +231,7 @@
       "lat": 39.712782884616054,
       "lng": -75.1140499488966,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
     },
     {
@@ -243,18 +243,18 @@
       "type": "Residential",
       "beds": 5,
       "baths": 3,
-      "rent": 0,
+      "rent": 4500,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo",
       "photo_urls": "https://drive.google.com/drive/folders/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo?usp=drive_link",
       "map_link": "",
       "parking": 6,
-      "leaseStart": "",
+      "leaseStart": "6-1-26",
       "lat": 39.71271450112623,
       "lng": -75.11288184688404,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1_eSPLCFu1m7jvCZlKyoqKj5TCEIDy02b=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/17j6Q4M1_7MW1Qn6JTgniOcHN_hqEWBRo/preview"
     },
     {
@@ -277,7 +277,7 @@
       "lat": 39.70980153043538,
       "lng": -75.11216658813169,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1tQTb2qkRke81mAkxOAtAcIgJuiTbfp7k=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1EpFrC-RflSSVPwt23czr6fOHWGJ99kcq/preview"
     },
     {
@@ -292,19 +292,19 @@
       "rent": 0,
       "sqft": "",
       "status": "rented",
-      "photo_folder_id": "1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH",
+      "photo_folder_id": "1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK",
       "photo_urls": "https://drive.google.com/drive/folders/1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH?usp=drive_link",
       "map_link": "",
       "parking": 8,
       "leaseStart": "",
-      "lat": 39.70634339856418,
-      "lng": -75.10908712001577,
+      "lat": 39.711414726605724,
+      "lng": -75.11436270761872,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1JDGrHLWSE_1i1Xq6XQxXMFAixbnVlFfH/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1BAe0zIGZ2u8zTJDDw95RfXTPoBVTGF_H=w800-h600-c",
+      "photoUrlBackup": "https://drive.google.com/file/d/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK/preview"
     },
     {
-      "id": "Coconut2",
+      "id": "Coconut1",
       "title": "202 CARPENTER ST",
       "address": "202 CARPENTER ST",
       "city": "",
@@ -323,7 +323,7 @@
       "lat": 39.711414726605724,
       "lng": -75.11436270761872,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1fLo106E-ZQ9MOu6CHfUM9v3u6Jn9jDBp=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1Ca_Oq3-tqhJVdhROmcBPvsvDSwY8fdtK/preview"
     },
     {
@@ -346,7 +346,7 @@
       "lat": 39.71301822484058,
       "lng": -75.11316761425797,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1dK99BUiNAADVIeemrWvvzYLXS7jPls7h=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1Y-rfu1EBpvnYoCW2DWiG3O80mnFAOcPX/preview"
     },
     {
@@ -369,7 +369,7 @@
       "lat": 39.70299192010835,
       "lng": -75.10952590779482,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1V4Pmiq1hoUE7ec8NK6LtSRSYXNSOuknZ=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1xm0Gl9FH2AdMbWUTOum1wAuGO3ePPN5Q/preview"
     },
     {
@@ -392,7 +392,7 @@
       "lat": 39.71606214724719,
       "lng": -75.12007532295955,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1R3ugG1mDupxZY3koXtHKDZJ7T4s7Fr6H=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1SYjXZ0BCIJzm3Wc6Px_n0fZcKZInhL2n/preview"
     },
     {
@@ -415,7 +415,7 @@
       "lat": 39.71213998461592,
       "lng": -75.11296150347391,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1AnlIlRfFQB8QCS05ojSnichpT3zS75_f=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1G5MfYkhDiqLwZum4gefZT92uwxMDnFzI/preview"
     },
     {
@@ -430,21 +430,44 @@
       "rent": 0,
       "sqft": "",
       "status": "rented",
-      "photo_folder_id": "1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG",
+      "photo_folder_id": "1QavagCMjRk2anoVoHGTto-cBshSXGOsY",
       "photo_urls": "https://drive.google.com/drive/folders/1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG?usp=drive_link",
       "map_link": "",
       "parking": 6,
       "leaseStart": "",
-      "lat": 39.705623233052926,
-      "lng": -75.11535276024092,
+      "lat": 39.705569581454306,
+      "lng": -75.11520792096053,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1FDbZKeHo2T7X4rR2-SZjFiRtwNmtegVG/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/17dQGRYKMw4TbVD9LvwTXDpRLHuAGuE3U=w800-h600-c",
+      "photoUrlBackup": "https://drive.google.com/file/d/1QavagCMjRk2anoVoHGTto-cBshSXGOsY/preview"
+    },
+    {
+      "id": "MGDR1",
+      "title": "313 HAMILTON RD",
+      "address": "313 HAMILTON RD",
+      "city": "",
+      "email": "rentalkinginfo@gmail.com",
+      "type": "Residential",
+      "beds": 6,
+      "baths": 2,
+      "rent": 3600,
+      "sqft": "",
+      "status": "available",
+      "photo_folder_id": "13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL",
+      "photo_urls": "https://drive.google.com/drive/folders/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL?usp=drive_link",
+      "map_link": "",
+      "parking": 5,
+      "leaseStart": "8-1-26",
+      "lat": 39.71015637064426,
+      "lng": -75.12708901241695,
+      "primaryPhoto": "",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1lsYLPsYNVge52vJvo3xr0KM-dMXIdCQd=w800-h600-c",
+      "photoUrlBackup": "https://drive.google.com/file/d/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL/preview"
     },
     {
       "id": "Humbert1",
-      "title": "408 SWARTHMORE RD",
-      "address": "408 SWARTHMORE RD",
+      "title": "408 Swarthmore Rd",
+      "address": "408 Swarthmore Rd",
       "city": "",
       "email": "billyho68@verizon.net",
       "type": "Residential",
@@ -461,31 +484,8 @@
       "lat": 39.70953290782313,
       "lng": -75.12970674580285,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1JldBUsDdzdjP460caUxRod92MCIoypZJ=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1JldBUsDdzdjP460caUxRod92MCIoypZJ/preview"
-    },
-    {
-      "id": "MGDR1",
-      "title": "313 HAMILTON RD",
-      "address": "313 HAMILTON RD",
-      "city": "",
-      "email": "rentalkinginfo@gmail.com",
-      "type": "Residential",
-      "beds": 6,
-      "baths": 2,
-      "rent": 3450,
-      "sqft": "",
-      "status": "available",
-      "photo_folder_id": "13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL",
-      "photo_urls": "https://drive.google.com/drive/folders/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL?usp=drive_link",
-      "map_link": "",
-      "parking": 6,
-      "leaseStart": "8-1-26",
-      "lat": 39.71015637064426,
-      "lng": -75.12708901241695,
-      "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/13AxFU1_qJFvyS3aKxW19ZCwd8dRpqauL/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1EURXn9L1e2MmpDvQ7KuKBvvzmFmz83e9=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Pink3",
@@ -507,7 +507,7 @@
       "lat": 39.705569581454306,
       "lng": -75.11520792096053,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1QavagCMjRk2anoVoHGTto-cBshSXGOsY=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1uPBQC5ZHBfmxpC6Yqap5w0V4mNlDmFII=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1QavagCMjRk2anoVoHGTto-cBshSXGOsY/preview"
     },
     {
@@ -530,8 +530,8 @@
       "lat": 39.70559009861487,
       "lng": -75.11023876535266,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/18JPFKTxO3ivsnu2AP7Cw47GEMPzsRfRI/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1wRm9ANv5E3DRGr6ujr_WXOrCZNnua5mq=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Allen1",
@@ -553,7 +553,7 @@
       "lat": 39.71443570190074,
       "lng": -75.11475353317036,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1QjHssc97xMiummyyu40xizDmML0VpNVQ=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1YUT1EnCAeOYfh3EwBk1_cpZ6AQi1pyGc/preview"
     },
     {
@@ -576,7 +576,7 @@
       "lat": 39.70582158428603,
       "lng": -75.11001504580308,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/19RySpKOINYk3E_m2vePTl0jwUt25s7yN=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1dwx2Ab5C7QsNWZtly-6MwnQYwLc2lPKr=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/19RySpKOINYk3E_m2vePTl0jwUt25s7yN/preview"
     },
     {
@@ -599,7 +599,7 @@
       "lat": 39.70433007981543,
       "lng": -75.11804624767404,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1SORdSkEVLD4g425Q_2w2x3ATLIfUhjvE=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1iCqQMGic0yrZjeGrHWD7fG6cTzM5Fpfy/preview"
     },
     {
@@ -622,7 +622,7 @@
       "lat": 39.709650839063976,
       "lng": -75.12659548598,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1WDXe8bmjmU63POz65qspmwU54zklyojj=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1FzxhB3IooDqk-0d6aMAx_rZqL3UwFggV=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1WDXe8bmjmU63POz65qspmwU54zklyojj/preview"
     },
     {
@@ -645,7 +645,7 @@
       "lat": 39.705622579370264,
       "lng": -75.10971532285726,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1309OANWiYlrtVuv9437qmH7u5zFESgy3=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1tj4msqcbhj9xQ6GUxeU-vtgwdwgE2qzE/preview"
     },
     {
@@ -668,8 +668,8 @@
       "lat": 39.703785988805755,
       "lng": -75.11765976114543,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1xg909ReIJwF9OSTDt6y6IG-Kr36Q7LAh=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1xg909ReIJwF9OSTDt6y6IG-Kr36Q7LAh/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1_Jrc5WfnWcYGfxSy6od4UG2DO8DlU8vf=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Agnes 2",
@@ -691,11 +691,11 @@
       "lat": 39.704253088582085,
       "lng": -75.11661586114543,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1073yZZ7ODzKeQeuVCSEVO3tq2wsA4pvK=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1073yZZ7ODzKeQeuVCSEVO3tq2wsA4pvK/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1PW-qPCPksaDo2CKXnFFrchotVOvBHphZ=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hildebrant1",
+      "id": "Hildebrant2",
       "title": "8 SHERWOOD LN",
       "address": "8 SHERWOOD LN",
       "city": "",
@@ -714,61 +714,61 @@
       "lat": 39.718248276719265,
       "lng": -75.12052664580243,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1LPk8CcoHwDmShyAIvHtKh-C20XEtc5sF/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/18VuBsEDCRiQ2DWzfAYyqZEdYKfbPlkgr=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "McFadden1",
       "title": "613 WHITMAN RD",
       "address": "613 WHITMAN RD",
       "city": "",
-      "email": "rental.glassboro@gmail.com",
+      "email": "7472@yahoo.com",
       "type": "Residential",
       "beds": 5,
       "baths": 2.5,
-      "rent": 0,
+      "rent": 3250,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU",
       "photo_urls": "",
       "map_link": "",
       "parking": 5,
-      "leaseStart": "",
+      "leaseStart": "6-1-26",
       "lat": 39.71570179465731,
       "lng": -75.11752240347371,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1be8TsVEnSpl60jO2pD8yQAhgcadQqtkU/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1a9iGgSLU4FgPQMFDqA_q5kEaDd2Gg0Iv=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Mcfadden2",
       "title": "115 SILVER AVE",
       "address": "115 SILVER AVE",
       "city": "",
-      "email": "rental.glassboro@gmail.com",
+      "email": "7472@yahoo.com",
       "type": "Residential",
       "beds": 5,
       "baths": 2,
-      "rent": 0,
+      "rent": 3250,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t",
       "photo_urls": "",
       "map_link": "",
       "parking": 6,
-      "leaseStart": "",
+      "leaseStart": "6-1-26",
       "lat": 39.71169187156161,
       "lng": -75.11509275929605,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ey8y6bW3DMqx92jHxtwCVRQNcGHsp_6t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1RF9HIaWhz5b27oxO-yznvlkipKuCBgu6=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Mcfadden3",
       "title": "339 OAKWOOD AVE",
       "address": "339 OAKWOOD AVE",
       "city": "",
-      "email": "rental.glassboro@gmail.com",
+      "email": "7472@yahoo.com",
       "type": "Residential",
       "beds": 5,
       "baths": 2,
@@ -783,8 +783,8 @@
       "lat": 39.70443749696511,
       "lng": -75.11961061881657,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1V8duWNp9fEbyIybLkfO163EB79wtEEux=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1V8duWNp9fEbyIybLkfO163EB79wtEEux/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1O1PScnIUYgtfyJLh8yQJy6D8hKHLfBOP=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Pink6",
@@ -795,18 +795,18 @@
       "type": "Residential",
       "beds": 5,
       "baths": 2,
-      "rent": 0,
+      "rent": 3125,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i",
       "photo_urls": "https://drive.google.com/drive/folders/1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i?usp=drive_link",
       "map_link": "",
       "parking": 6,
-      "leaseStart": "",
+      "leaseStart": "6-1-26",
       "lat": 39.705793944356614,
       "lng": -75.1103639653526,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1H2xLXYkJWAUyZah3wdU9gFa6msM2b_No=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1IxexLQeRFR7O82pQh0_HVKy3kSSQVv6i/preview"
     },
     {
@@ -829,11 +829,34 @@
       "lat": 39.716816933175636,
       "lng": -75.11896837797772,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1ALj9Pg1IrKwQnBY5HlDLHMc_TJlKvHas=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1dj0H2wzZSrQmxPhoE2xGEupTmQIDzWhw/preview"
     },
     {
       "id": "Pink8",
+      "title": "7 SPANISH OAK CT - TURNERSVILLE",
+      "address": "7 SPANISH OAK CT - TURNERSVILLE",
+      "city": "CUL-DE-SAC",
+      "email": "rentalkinginfo@gmail.com",
+      "type": "CUL-DE-SAC",
+      "beds": 3,
+      "baths": 2.5,
+      "rent": 0,
+      "sqft": "",
+      "status": "rented",
+      "photo_folder_id": "18spc0D4-i7Th1z-DooF60CFH4tJdhw6b",
+      "photo_urls": "https://drive.google.com/drive/folders/18spc0D4-i7Th1z-DooF60CFH4tJdhw6b?usp=drive_link",
+      "map_link": "",
+      "parking": 5,
+      "leaseStart": "",
+      "lat": 39.73900258417586,
+      "lng": -75.06135621816682,
+      "primaryPhoto": "",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1UBl9fIAmDV0hvFcPRmUqY4bU3Ukskk1l=w800-h600-c",
+      "photoUrlBackup": "https://drive.google.com/file/d/18spc0D4-i7Th1z-DooF60CFH4tJdhw6b/preview"
+    },
+    {
+      "id": "Pink9",
       "title": "146 E. HIGH ST",
       "address": "146 E. HIGH ST",
       "city": "",
@@ -852,11 +875,11 @@
       "lat": 39.701394674486735,
       "lng": -75.10694294050253,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1H--xb3UVQMNR6F6e5ujuBF4ZvIOU96rM=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1kNefDBSEYzVSAO2JAAwgMvsi4S8jVqlk/preview"
     },
     {
-      "id": "Hildebrant2",
+      "id": "Hildebrant1",
       "title": "207 UNIVERSITY BLVD",
       "address": "207 UNIVERSITY BLVD",
       "city": "",
@@ -875,8 +898,8 @@
       "lat": 39.706618471562614,
       "lng": -75.12582374580296,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1zH3VIMeztLkMca2nqcAfh5IgM6KIpjJT=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1zH3VIMeztLkMca2nqcAfh5IgM6KIpjJT/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/12s4ItwWLMiqsHad0v5uBjdjh3gZ5ejCK=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Gold11",
@@ -898,11 +921,11 @@
       "lat": 39.70636403356793,
       "lng": -75.10955382436376,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/17M5sgM2rbpAEXJWCMbPDgahDEoJXUeUT=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1SNEvgK0CV0Rmz0LQZo494ULLPTrj-zhi/preview"
     },
     {
-      "id": "Jayna2",
+      "id": "Jayna11",
       "title": "128 S. Main St",
       "address": "128 S. Main St",
       "city": "",
@@ -921,8 +944,8 @@
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1QgVszJFAXTc2QU_9w17p2xeWSutLMBNL=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Gold12",
@@ -944,13 +967,13 @@
       "lat": 39.70591227932185,
       "lng": -75.10999891621618,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1vQKv6ZS44uViG5HJlNUD2XNsH_a1KvgE=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1gFbFT7A0g6zYv9ccUQ0jDvtFJsdihFW0/preview"
     },
     {
       "id": "Agnes 3",
-      "title": "52 STATE ST",
-      "address": "52 STATE ST",
+      "title": "52 State St",
+      "address": "52 State St",
       "city": "",
       "email": "bagnes28@gmail.com",
       "type": "Residential",
@@ -967,8 +990,8 @@
       "lat": 39.70464293054591,
       "lng": -75.10880543415897,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1cNNaUYjo1mr4tOR7K3cw31mSZtSN66pW=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1cNNaUYjo1mr4tOR7K3cw31mSZtSN66pW/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1NLYBtTpHttWB2vJy52ZqNIDKDQ6q6QZ8=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Insana6",
@@ -990,8 +1013,8 @@
       "lat": 39.708584238946244,
       "lng": -75.12681490347403,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Avbfcj03cxhf9P168vtaHEGNCBx9fwIv/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/10JjLg_8nQd92-WW8g76SJry_pirF2fKV=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Insana7",
@@ -1013,8 +1036,8 @@
       "lat": 39.70893263077625,
       "lng": -75.12734380347405,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ScB2y2VXY8YGMIV8ffqSR7BQ8JAsQJag/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1IZZrOZOf6MIcdmlddwEfZ9eZbcQ1cAC4=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Hildebrant3",
@@ -1036,8 +1059,8 @@
       "lat": 39.71830487670584,
       "lng": -75.1189990053227,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1TorA5joziDp40I4lBxb1KaMlJLuZVzB7=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1TorA5joziDp40I4lBxb1KaMlJLuZVzB7/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1tTjZUEAglOfFb1IwvYUz6evJv3P121Ow=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Humbert2",
@@ -1059,8 +1082,8 @@
       "lat": 39.71385660264939,
       "lng": -75.11499281881622,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/14MKCxwgf7fCRPW8CIKFqfdv0jEMplXWB=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/14MKCxwgf7fCRPW8CIKFqfdv0jEMplXWB/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1hzS2_9sqCvdZb03FoGAZzAQz8j4isFP3=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Hee1",
@@ -1082,11 +1105,11 @@
       "lat": 39.70324280658403,
       "lng": -75.12563071881658,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1iTUwMZuR03pAeXq3BF5zCXVL-x928ahC=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee2",
+      "id": "Hee9",
       "title": "301 Oakwood Ave Unit A",
       "address": "301 Oakwood Ave Unit A",
       "city": "",
@@ -1105,11 +1128,34 @@
       "lat": 39.703208006617245,
       "lng": -75.11619686114547,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1Ex0o2nK-NuaFoygAfMyxrifIaiVf8WlZ=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Pink9",
+      "id": "Max1",
+      "title": "42 MONROE ST - SWEDESBORO",
+      "address": "42 MONROE ST - SWEDESBORO",
+      "city": "LOGAN TWP SCHOOLS",
+      "email": "rentalkinginfo@gmail.com",
+      "type": "LOGAN TWP SCHOOLS",
+      "beds": 4,
+      "baths": 2.5,
+      "rent": 2800,
+      "sqft": "",
+      "status": "available",
+      "photo_folder_id": "1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2",
+      "photo_urls": "",
+      "map_link": "",
+      "parking": 2,
+      "leaseStart": "5-1-26",
+      "lat": 39.75323717561521,
+      "lng": -75.35855035874928,
+      "primaryPhoto": "",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP=w800-h600-c",
+      "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
+    },
+    {
+      "id": "Pink10",
       "title": "11 SILVER AVE",
       "address": "11 SILVER AVE",
       "city": "",
@@ -1128,7 +1174,7 @@
       "lat": 39.712719004716725,
       "lng": -75.11375059412491,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1iMwlHDHgNNlaklRkrpk-5nkHYjWf_aT5=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/14jvXFrzaEyIkxMOrIX0upXr8-LnwlZLT/preview"
     },
     {
@@ -1151,11 +1197,11 @@
       "lat": 39.70096393550669,
       "lng": -75.10633728998124,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1kKOHWRzVKKBp5fdUQVc7zrkVguZQsTPN=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee3",
+      "id": "Hee10",
       "title": "301 Oakwood Ave Unit B",
       "address": "301 Oakwood Ave Unit B",
       "city": "",
@@ -1174,11 +1220,11 @@
       "lat": 39.703208006617245,
       "lng": -75.11619686114547,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1ItgTfdodP31Y4_S4TkLfXuF1vZ4A-zta/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1Ex0o2nK-NuaFoygAfMyxrifIaiVf8WlZ=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee4",
+      "id": "Hee3",
       "title": "600 Heston Rd",
       "address": "600 Heston Rd",
       "city": "",
@@ -1197,11 +1243,11 @@
       "lat": 39.715908288729096,
       "lng": -75.1202985034737,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1jfSPqCALtYtUHTmNzzgCNiKxoKo56EqE=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1jfSPqCALtYtUHTmNzzgCNiKxoKo56EqE/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/12tZoSjdiILAg-DB9ivjLGfB4Q9ycMYpl=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee5",
+      "id": "Hee12",
       "title": "611 Whitman St",
       "address": "611 Whitman St",
       "city": "",
@@ -1220,11 +1266,11 @@
       "lat": 39.71551497156093,
       "lng": -75.11767564580255,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1REd8EfmMS5GCgupJk2C4HKuu8Vhrektw=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1REd8EfmMS5GCgupJk2C4HKuu8Vhrektw/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/149dt9Tn4fhqjQIbMKYSqO-YTb_rUlyz2=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee6",
+      "id": "Hee5",
       "title": "608 Whitman St",
       "address": "608 Whitman St",
       "city": "",
@@ -1243,11 +1289,11 @@
       "lat": 39.71504547748629,
       "lng": -75.11762853230934,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1xqOEmk6jQ2ImUbNPGusNtIhjF9tJdmfU=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1xqOEmk6jQ2ImUbNPGusNtIhjF9tJdmfU/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1O5NN6cecEdx8FcOj1hsRiD-_x1sMOuNP=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee7",
+      "id": "Hee4",
       "title": "617 Whitman St",
       "address": "617 Whitman St",
       "city": "",
@@ -1266,11 +1312,11 @@
       "lat": 39.71604390003196,
       "lng": -75.1170667458025,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1z-mnv507GN9myeAqX9VocEeKxeDtxMUG=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1z-mnv507GN9myeAqX9VocEeKxeDtxMUG/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/18IGhhPd4VZ_olg6WaXBYQCT_TVoACm2N=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee8",
+      "id": "Hee11",
       "title": "607 Heston Rd",
       "address": "607 Heston Rd",
       "city": "",
@@ -1278,22 +1324,22 @@
       "type": "Residential",
       "beds": 4,
       "baths": 1,
-      "rent": 0,
+      "rent": 2500,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4",
       "photo_urls": "",
       "map_link": "",
       "parking": 4,
-      "leaseStart": "",
+      "leaseStart": "6-1-26",
       "lat": 39.716576988248946,
       "lng": -75.12011510347362,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1BmgUUHf0KHBY54LXPOv02WNfhdCYXxT4/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1u-djbNPy44Qzs9JR_cxRhh-lSQyEt86R=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee9",
+      "id": "Hee13",
       "title": "405 Georgetown Rd",
       "address": "405 Georgetown Rd",
       "city": "",
@@ -1312,30 +1358,30 @@
       "lat": 39.706051817525584,
       "lng": -75.13133376114534,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1IQXZRhOoPdwkqrUlk7btZ1ZRorNL6H-s=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1IQXZRhOoPdwkqrUlk7btZ1ZRorNL6H-s/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1ssdAyb1u8Q_UMAQg5T-hsxEc7lCJ2K-t=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Gold13",
-      "title": "503 N. MAIN ST - GLASSBORO - COMMERCIAL",
-      "address": "503 N. MAIN ST - GLASSBORO - COMMERCIAL",
+      "title": "503 N. MAIN ST - GLASSBORO",
+      "address": "503 N. MAIN ST - GLASSBORO",
       "city": "1,250 Sqft",
       "email": "rentalkinginfo@gmail.com",
-      "type": "Residential",
+      "type": "\"1",
       "beds": 0,
       "baths": 0.5,
       "rent": 2500,
-      "sqft": "",
+      "sqft": "2500",
       "status": "available",
       "photo_folder_id": "1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS",
-      "photo_urls": "",
+      "photo_urls": "1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS",
       "map_link": "",
       "parking": 9,
       "leaseStart": "6-1-26",
       "lat": 39.7134137943268,
       "lng": -75.11285825682481,
-      "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS=w800-h600-c",
+      "primaryPhoto": "-75.11285825682481\"",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1jpmEFIY-XXLIXbi8kP3NvphJHnAacYeG=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1IxblT5vueVfxxA7dFLUQf2hfPTRv3bgS/preview"
     },
     {
@@ -1347,22 +1393,22 @@
       "type": "Residential",
       "beds": 4,
       "baths": 1,
-      "rent": 0,
+      "rent": 2500,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-",
       "photo_urls": "",
       "map_link": "",
       "parking": 2,
-      "leaseStart": "",
+      "leaseStart": "6-1-26",
       "lat": 39.70196800780406,
       "lng": -75.1231136881321,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1OhyIyXbDeH7RJPBBhYGXkfNrqL370aE-/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1UZaaUesQ-6FejcsECaDzJV-TQMf9HPQT=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee10",
+      "id": "Hee6",
       "title": "206 Dickinson Rd",
       "address": "206 Dickinson Rd",
       "city": "",
@@ -1381,11 +1427,11 @@
       "lat": 39.70527656445197,
       "lng": -75.12638496529182,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1Lurp0KRhjlLyMH18mqfZMcXruFQAGVIh=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1Lurp0KRhjlLyMH18mqfZMcXruFQAGVIh/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/14kY0B_YkiGdQg3Q6fBcK8TbXUJiEf2OT=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna3",
+      "id": "Jayna19",
       "title": "357 Oakwood Ave Apt 201",
       "address": "357 Oakwood Ave Apt 201",
       "city": "",
@@ -1404,11 +1450,11 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1RypmmJYPCYQjyvxxK4rjQBE3j36U2P7h=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna4",
+      "id": "Jayna20",
       "title": "357 Oakwood Ave Apt 202",
       "address": "357 Oakwood Ave Apt 202",
       "city": "",
@@ -1427,11 +1473,11 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1RypmmJYPCYQjyvxxK4rjQBE3j36U2P7h=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna5",
+      "id": "Jayna21",
       "title": "357 Oakwood Ave Apt 203",
       "address": "357 Oakwood Ave Apt 203",
       "city": "",
@@ -1450,11 +1496,11 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1RypmmJYPCYQjyvxxK4rjQBE3j36U2P7h=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna6",
+      "id": "Jayna22",
       "title": "357 Oakwood Ave Apt 204",
       "address": "357 Oakwood Ave Apt 204",
       "city": "",
@@ -1473,11 +1519,11 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1RypmmJYPCYQjyvxxK4rjQBE3j36U2P7h=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee11",
+      "id": "Hee7",
       "title": "12 Georgetown Rd",
       "address": "12 Georgetown Rd",
       "city": "",
@@ -1496,11 +1542,11 @@
       "lat": 39.70302668036421,
       "lng": -75.1230822304608,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1a8-28ImFw_NIRn9Imy9nHyta1wwKoEd0=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1a8-28ImFw_NIRn9Imy9nHyta1wwKoEd0/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1Q6e0VP1PU-hMF6AR9nItqRUGln8sWCcL=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Hee12",
+      "id": "Hee8",
       "title": "613 Heston Rd",
       "address": "613 Heston Rd",
       "city": "",
@@ -1519,8 +1565,8 @@
       "lat": 39.71693467156069,
       "lng": -75.11956440347367,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1gAjWtLf_iJsHa3upM14cZadU8FiFe6iP=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1gAjWtLf_iJsHa3upM14cZadU8FiFe6iP/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/18vudXU1jCIUE3UTboLy4HIwh5WC8qpk7=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Insana5",
@@ -1542,11 +1588,11 @@
       "lat": 39.708771701291695,
       "lng": -75.127042203474,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1SCtVwQKAbq_EuWkUo2DYlkAUhMmWNW64=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1SCtVwQKAbq_EuWkUo2DYlkAUhMmWNW64/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TXfGXFlptTXTiexhp11HXLMnwWFxmDT2=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna7",
+      "id": "Jayna12",
       "title": "25 Zane St Unit A",
       "address": "25 Zane St Unit A",
       "city": "",
@@ -1565,8 +1611,8 @@
       "lat": 39.69972435884718,
       "lng": -75.11531948018954,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1e_18y_YJasQIFguefGqR6yvJd_q89xfu=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1e_18y_YJasQIFguefGqR6yvJd_q89xfu/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1Sozm4c1db6jKR3tCF2tciyM_oBcnjPvJ=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Gold14",
@@ -1576,7 +1622,7 @@
       "email": "rentalkinginfo@gmail.com",
       "type": "Residential",
       "beds": 3,
-      "baths": 1.5,
+      "baths": 2,
       "rent": 2250,
       "sqft": "",
       "status": "available",
@@ -1588,7 +1634,7 @@
       "lat": 39.70990119569285,
       "lng": -75.11291440347397,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1wa2pjpx-PZNlPKIRJwtXztPH7dmiJvY4=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1HH-D6-MgzKHZj9jF9Hh1R_zM8ZaC20MV/preview"
     },
     {
@@ -1611,7 +1657,7 @@
       "lat": 39.70632276355425,
       "lng": -75.10928560347412,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1hlz8DnoNM3K4j69bTgC10N0mUU4r3kP0=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1oVXLPD0mAkX7lwi8eZrPO0uacuxmKc8y/preview"
     },
     {
@@ -1634,7 +1680,7 @@
       "lat": 39.70520406486557,
       "lng": -75.11023132878663,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1rKBLcW3XqjMEB-IHDU5abkcU7kfneX-1=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1YprVgtq0VtjJINoVyfUpJUVDkJMH99lp/preview"
     },
     {
@@ -1657,11 +1703,11 @@
       "lat": 39.70096393550669,
       "lng": -75.10633728998124,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1GmH9DiS9g0A8Rj70PmPseOb3alGamoiD/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1kKOHWRzVKKBp5fdUQVc7zrkVguZQsTPN=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna8",
+      "id": "Jayna1",
       "title": "1 Pennsylvania Rd Apt 2",
       "address": "1 Pennsylvania Rd Apt 2",
       "city": "",
@@ -1680,11 +1726,11 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna9",
+      "id": "Jayna2",
       "title": "1 Pennsylvania Rd Apt 4",
       "address": "1 Pennsylvania Rd Apt 4",
       "city": "",
@@ -1703,11 +1749,11 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna10",
+      "id": "Jayna3",
       "title": "1 Pennsylvania Rd Apt 5",
       "address": "1 Pennsylvania Rd Apt 5",
       "city": "",
@@ -1726,11 +1772,11 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna11",
+      "id": "Jayna4",
       "title": "1 Pennsylvania Rd Apt 8",
       "address": "1 Pennsylvania Rd Apt 8",
       "city": "",
@@ -1749,11 +1795,11 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna12",
+      "id": "Jayna5",
       "title": "1 Pennsylvania Rd Apt 11",
       "address": "1 Pennsylvania Rd Apt 11",
       "city": "",
@@ -1772,11 +1818,11 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna13",
+      "id": "Jayna6",
       "title": "1 Pennsylavania Apt 12",
       "address": "1 Pennsylavania Apt 12",
       "city": "",
@@ -1795,11 +1841,11 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna14",
+      "id": "Jayna7",
       "title": "1 Pennsylvania Rd Apt 15",
       "address": "1 Pennsylvania Rd Apt 15",
       "city": "",
@@ -1818,8 +1864,8 @@
       "lat": 39.7050351590367,
       "lng": -75.12267042002554,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1shchyArEwvoJeiFWhvW_hoTQlQ1S2b8t/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1P77MX3OwtB34CONnTDTvXf9FLWPwi2Nk=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
       "id": "Insana9",
@@ -1830,22 +1876,22 @@
       "type": "Residential",
       "beds": 2,
       "baths": 1,
-      "rent": 0,
+      "rent": 1600,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk",
       "photo_urls": "",
       "map_link": "",
       "parking": 2,
-      "leaseStart": "",
+      "leaseStart": "11-1-25",
       "lat": 39.70142448993608,
       "lng": -75.11512040347445,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1XT4pxvRN81_Xx4BpVrSEfyV28Zag-9Wi=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Pink10",
+      "id": "Pink11",
       "title": "107 E. NEW ST APT A",
       "address": "107 E. NEW ST APT A",
       "city": "",
@@ -1864,7 +1910,7 @@
       "lat": 39.705335374076846,
       "lng": -75.10891960093483,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
     },
     {
@@ -1876,22 +1922,22 @@
       "type": "Residential",
       "beds": 2,
       "baths": 1,
-      "rent": 0,
+      "rent": 1500,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk",
       "photo_urls": "",
       "map_link": "",
       "parking": 2,
-      "leaseStart": "",
+      "leaseStart": "11-1-25",
       "lat": 39.70142448993608,
       "lng": -75.11512040347445,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1_0HYxIkTtTd9RbX0eld4EJNe_ws1rKNk/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1XT4pxvRN81_Xx4BpVrSEfyV28Zag-9Wi=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna15",
+      "id": "Jayna17",
       "title": "357 Oakwood Ave Apt 101",
       "address": "357 Oakwood Ave Apt 101",
       "city": "",
@@ -1899,22 +1945,22 @@
       "type": "Residential",
       "beds": 1,
       "baths": 1,
-      "rent": 0,
+      "rent": 1400,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q",
       "photo_urls": "",
       "map_link": "",
       "parking": 1,
-      "leaseStart": "",
+      "leaseStart": "7-1-26",
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1RypmmJYPCYQjyvxxK4rjQBE3j36U2P7h=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna16",
+      "id": "Jayna18",
       "title": "357 Oakwood Ave Apt 103",
       "address": "357 Oakwood Ave Apt 103",
       "city": "",
@@ -1933,11 +1979,11 @@
       "lat": 39.70482225383033,
       "lng": -75.12088580048842,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1dg8IcZu8ehq-LlYzXFVutRMWEyBYGJ4q/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1RypmmJYPCYQjyvxxK4rjQBE3j36U2P7h=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna17",
+      "id": "Jayna8",
       "title": "126 S. Main St Apt A",
       "address": "126 S. Main St Apt A",
       "city": "",
@@ -1945,22 +1991,22 @@
       "type": "Residential",
       "beds": 1,
       "baths": 1,
-      "rent": 0,
+      "rent": 1300,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq",
       "photo_urls": "",
       "map_link": "",
       "parking": 1,
-      "leaseStart": "",
+      "leaseStart": "11-1-25",
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1QgVszJFAXTc2QU_9w17p2xeWSutLMBNL=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna18",
+      "id": "Jayna9",
       "title": "126 S. Main St Apt B",
       "address": "126 S. Main St Apt B",
       "city": "",
@@ -1979,11 +2025,11 @@
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1QgVszJFAXTc2QU_9w17p2xeWSutLMBNL=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna19",
+      "id": "Jayna10",
       "title": "126 S. Main St Apt C",
       "address": "126 S. Main St Apt C",
       "city": "",
@@ -1991,22 +2037,22 @@
       "type": "Residential",
       "beds": 1,
       "baths": 1,
-      "rent": 0,
+      "rent": 1300,
       "sqft": "",
-      "status": "rented",
+      "status": "available",
       "photo_folder_id": "1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq",
       "photo_urls": "",
       "map_link": "",
       "parking": 1,
-      "leaseStart": "",
+      "leaseStart": "8-1-26",
       "lat": 39.69937318286572,
       "lng": -75.11240260046185,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1g4Pt1txSTHzYfh6sKFVqMtH3oP6nquFq/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1QgVszJFAXTc2QU_9w17p2xeWSutLMBNL=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna20",
+      "id": "Jayna14",
       "title": "349 Oakwood Ave",
       "address": "349 Oakwood Ave",
       "city": "",
@@ -2025,11 +2071,11 @@
       "lat": 39.70478510998917,
       "lng": -75.12073023237244,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1cz-EK5AZIo8urXOccyx1oq6rJSfHNFud=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna21",
+      "id": "Jayna15",
       "title": "351 Oakwood Ave Apt A",
       "address": "351 Oakwood Ave Apt A",
       "city": "",
@@ -2048,11 +2094,11 @@
       "lat": 39.70478510998917,
       "lng": -75.12073023237244,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1cz-EK5AZIo8urXOccyx1oq6rJSfHNFud=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Jayna22",
+      "id": "Jayna16",
       "title": "351 Oakwood Ave Apt C",
       "address": "351 Oakwood Ave Apt C",
       "city": "",
@@ -2071,11 +2117,11 @@
       "lat": 39.70478510998917,
       "lng": -75.12073023237244,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1y34s5wo_4x8fznRi0NhH0pWJby3VWwFr/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1cz-EK5AZIo8urXOccyx1oq6rJSfHNFud=w800-h600-c",
+      "photoUrlBackup": ""
     },
     {
-      "id": "Pink11",
+      "id": "Pink12",
       "title": "107 E. NEW ST APT B",
       "address": "107 E. NEW ST APT B",
       "city": "",
@@ -2094,7 +2140,7 @@
       "lat": 39.705343628199685,
       "lng": -75.10879621932558,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
     },
     {
@@ -2117,7 +2163,7 @@
       "lat": 39.70532711995304,
       "lng": -75.10866210888076,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
     },
     {
@@ -2140,11 +2186,11 @@
       "lat": 39.705335374076846,
       "lng": -75.10856554936049,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2=w800-h600-c",
+      "photoUrl": "https://lh3.googleusercontent.com/d/1TkIt1rnQRxY4VZ7W6obG2t0kHNqnT-sP=w800-h600-c",
       "photoUrlBackup": "https://drive.google.com/file/d/1C2LhA1owWwG6A-zuJaYWI35SYgQ8sak2/preview"
     },
     {
-      "id": "Hee13",
+      "id": "Hee2",
       "title": "111 Franklin Rd Unit B",
       "address": "111 Franklin Rd Unit B",
       "city": "",
@@ -2163,8 +2209,8 @@
       "lat": 39.70324280658403,
       "lng": -75.12563071881658,
       "primaryPhoto": "",
-      "photoUrl": "https://lh3.googleusercontent.com/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo=w800-h600-c",
-      "photoUrlBackup": "https://drive.google.com/file/d/1FeHxozq4EgMGAQfvCTIA2CICJ62QbDgo/preview"
+      "photoUrl": "https://lh3.googleusercontent.com/d/1iTUwMZuR03pAeXq3BF5zCXVL-x928ahC=w800-h600-c",
+      "photoUrlBackup": ""
     }
   ]
 }
